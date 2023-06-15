@@ -4,6 +4,20 @@
 h1, h2, h3, p{
     margin: 0;
 }
+*{
+    font-size: 18px;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 72px 0 56px;
+}
+h3{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
 body{
     margin: 0;
     width: 100%;
@@ -29,6 +43,8 @@ main{
     width: 100%;
     padding: 64px 164px;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
 }
 nav{
     position: relative;
@@ -41,4 +57,64 @@ nav button{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: black;
+}
+.descricao{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.texts  p:nth-child(2){
+    width: 580px;
+    margin: 20px 0;
+}
+.texts  p:nth-child(3){
+    font-weight: 600;
+}
+.ingredientes p{
+    width: 800px;
+}
+.nutri-cards-row{
+    display: flex;
+    gap: 40px;
+}
+.nutri-card{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 32px;
+    color: #0B024B;
+    text-align: center;
+    width: 140px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.nutri-value{
+    background-color: #FFD867;
+    width: 100%;
+    border-top: 3px solid black;
+    padding: 20px;
+}
+.simil-cards-row{
+    display: flex;
+    gap: 40px;
+}
+.simil-card{
+    background-color: white;
+    color: #0B024B;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    border-radius: 16px;
+    font-weight: 500;
+    padding: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
