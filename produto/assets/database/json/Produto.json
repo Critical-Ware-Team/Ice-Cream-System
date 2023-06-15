@@ -1,0 +1,325 @@
+{
+    "produtos": [
+        {
+            "nome": "Picolé de manga",
+            "codigo": 100,
+            "valor": 2.00,
+            "qnt_estoque": 200,
+            "categorias": [
+                "picolé",
+                "fruta",
+                "manga",
+                "tropical"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "leite",
+                "creme de leite",
+                "leite condensado",
+                "manga",
+                "açucar"
+            ],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amendoa": 0,
+                "avela": 0,
+                "castanha_caju": 0,
+                "castanha_para": 0,
+                "macadamia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 123.28,
+                "carboidratos": 26.53,
+                "proteinas": 0.21,
+                "gorduras_totais": 1.50,
+                "gorduras_saturadas": 0.90,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 0.00,
+                "sódio": 9.80
+            },
+            "descricao": "Picolé de fruta, extremamente cremoso. Feito com água filtrada, açúcar cristal e polpa de manga."
+        },
+        {
+            "nome": "Sorvete de chocolate",
+            "codigo": 101,
+            "valor": 3.50,
+            "qnt_estoque": 150,
+            "categorias": [
+                "sorvete",
+                "chocolate"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "leite",
+                "creme de leite",
+                "chocolate em pó",
+                "açúcar"
+            ],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amêndoa": 0,
+                "avelã": 0,
+                "castanha_de_caju": 0,
+                "castanha_do_pará": 0,
+                "macadâmia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 220.50,
+                "carboidratos": 28.60,
+                "proteinas": 3.20,
+                "gorduras_totais": 10.40,
+                "gorduras_saturadas": 6.50,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 0.80,
+                "sódio": 41.20
+            },
+            "descricao": "Sorvete cremoso de chocolate feito com ingredientes de alta qualidade."
+        },
+        {
+            "nome": "Sundae de morango",
+            "codigo": 102,
+            "valor": 6.00,
+            "qnt_estoque": 100,
+            "categorias": [
+                "sundae",
+                "fruta",
+                "morango"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "sorvete de creme",
+                "calda de morango",
+                "chantilly",
+                "morangos"
+            ],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amêndoa": 0,
+                "avelã": 0,
+                "castanha_de_caju": 0,
+                "castanha_do_pará": 0,
+                "macadâmia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 310.20,
+                "carboidratos": 43.10,
+                "proteinas": 4.80,
+                "gorduras_totais": 14.50,
+                "gorduras_saturadas": 8.10,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 1.20,
+                "sódio": 68.90
+            },
+            "descricao": "Delicioso sundae com sorvete de creme, calda de morango, chantilly e morangos frescos."
+        },
+        {
+            "nome": "Milkshake de baunilha",
+            "codigo": 103,
+            "valor": 7.50,
+            "qnt_estoque": 80,
+            "categorias": [
+                "milkshake",
+                "baunilha"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "sorvete de baunilha",
+                "leite",
+                "chantilly",
+                "calda de caramelo"
+            ],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amêndoa": 0,
+                "avelã": 0,
+                "castanha_de_caju": 0,
+                "castanha_do_pará": 0,
+                "macadâmia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 380.80,
+                "carboidratos": 52.70,
+                "proteinas": 8.40,
+                "gorduras_totais": 14.90,
+                "gorduras_saturadas": 9.60,
+                "gorduras_trans": 0.10,
+                "fibra_alimentar": 0.50,
+                "sódio": 170.40
+            },
+            "descricao": "Um clássico milkshake de baunilha com chantilly e calda de caramelo."
+        },
+        {
+            "nome": "Casquinha de Pistache",
+            "codigo": 104,
+            "valor": 4.50,
+            "qnt_estoque": 120,
+            "categorias": [
+                "casquinha",
+                "pistache"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "casquinha de sorvete",
+                "sorvete de pistache",
+                "cobertura de chocolate branco",
+                "pistache picado"
+            ],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amêndoa": 0,
+                "avelã": 0,
+                "castanha_de_caju": 0,
+                "castanha_do_pará": 0,
+                "macadâmia": 0,
+                "noz": 0,
+                "pistache": 1,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 180.60,
+                "carboidratos": 23.40,
+                "proteinas": 3.70,
+                "gorduras_totais": 7.90,
+                "gorduras_saturadas": 4.60,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 0.90,
+                "sódio": 33.80
+            },
+            "descricao": "Casquinha crocante com sorvete de pistache, cobertura de chocolate branco e pistache picado por cima."
+        },
+        {
+            "nome": "Sundae de Caramelo Salgado",
+            "codigo": 105,
+            "valor": 6.50,
+            "qnt_estoque": 90,
+            "categorias": [
+                "sundae",
+                "caramelo",
+                "salgado"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "sorvete de creme",
+                "calda de caramelo salgado",
+                "chantilly",
+                "amendoim torrado"
+            ],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 1,
+                "soja": 0,
+                "leite": 1,
+                "amêndoa": 0,
+                "avelã": 0,
+                "castanha_de_caju": 0,
+                "castanha_do_pará": 0,
+                "macadâmia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 290.30,
+                "carboidratos": 40.80,
+                "proteinas": 5.50,
+                "gorduras_totais": 11.90,
+                "gorduras_saturadas": 7.20,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 1.80,
+                "sódio": 132.50
+            },
+            "descricao": "Sundae com sorvete de creme, calda de caramelo salgado, chantilly e amendoim torrado para uma combinação perfeita de doce e salgado."
+        },
+        {
+            "nome": "Milkshake de Frutas Vermelhas",
+            "codigo": 106,
+            "valor": 8.00,
+            "qnt_estoque": 70,
+            "categorias": [
+                "milkshake",
+                "frutas",
+                "vermelhas"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "sorvete de baunilha",
+                "frutas vermelhas",
+                "leite",
+                "chantilly"
+            ],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amêndoa": 0,
+                "avelã": 0,
+                "castanha_de_caju": 0,
+                "castanha_do_pará": 0,
+                "macadâmia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 340.90,
+                "carboidratos": 51.20,
+                "proteinas": 5.80,
+                "gorduras_totais": 13.60,
+                "gorduras_saturadas": 8.70,
+                "gorduras_trans": 0.10,
+                "fibra_alimentar": 2.10,
+                "sódio": 131.40
+            },
+            "descricao": "Refrescante milkshake com sorvete de baunilha, frutas vermelhas frescas, leite e chantilly para uma explosão de sabor frutado."
+        }
+    ]
+}

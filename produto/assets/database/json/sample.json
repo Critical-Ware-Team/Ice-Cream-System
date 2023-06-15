@@ -1,0 +1,86 @@
+{
+    "nome":"James Oliver",
+    "nascimento":"1998-12-31",
+    "ra":"???",
+    "cpf":"111.222.333-44",
+    "email":"email@gmail.com",
+    "telefone":"4002-8922",
+    "sexo":"M",
+    "bolsista":true,
+    "estado_civil":"divorciado",
+    "endereco":[
+    {   "current":false,
+        "rua":"Av. Brasil",
+        "numero":1234,
+        "cep":"85850-000",
+        "cidade":"Curitiba",
+        "estado":"Parana",
+        "pais":"Brasil",
+        "bairro":"batel"
+    },
+    {
+        "rua":"Av. Brasil",
+        "numero":1234,
+        "cep":"85850-000",
+        "cidade":"Curitiba",
+        "estado":"Parana",
+        "pais":"Brasil",
+        "bairro":"batel"
+    }
+],
+    "curso":{
+        "nome":"Biologia",
+        "mensalidade":800,
+        "turma":2022
+    },
+    "historico":[
+        {
+            "nome":"intro anatomia",
+            "nota":75,
+            "aprovado":true
+        },
+        {
+            "nome":"bioquimica1",
+            "nota":66,
+            "aprovado":false
+        },
+        {
+            "nome":"anatomia1",
+            "nota":75,
+            "aprovado":true
+        },
+        {
+            "nome":"anatomia2",
+            "nota":75,
+            "aprovado":true
+        },
+        {
+            "nome":"intro anatomia",
+            "nota":75,
+            "aprovado":true
+        },
+        {
+            "nome":"histologia1",
+            "nota":75,
+            "aprovado":true
+        },
+        {
+            "nome":"histologia2",
+            "nota":75,
+            "aprovado":true
+        },
+        {
+            "nome":"fisiologia1",
+            "nota":75,
+            "aprovado":true
+        },
+        {
+            "nome":"bioquimica1",
+            "nota":null,
+            "aprovado":true
+        }
+    ],
+    "materiais_matriculadas":["anatomia","histologia","fisiologia" , "bioquimica"],
+    "materiais_cursadas":["intro anoto", "antomial"],
+    "materias_reprovadas":["fisiologia2","bioquimica","histologia"]
+}

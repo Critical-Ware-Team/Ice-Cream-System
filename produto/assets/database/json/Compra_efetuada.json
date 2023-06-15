@@ -1,0 +1,30 @@
+{
+    "numero_pedido":1234,
+    "id_cliente":145,
+    "data_compra":{
+        "dia":28,
+        "mes":1,
+        "ano":2000
+    },
+    "produtos":[
+        {
+            "nome":"picolé de manga",
+            "categorias":["picolé", "fruta", "manga", "tropical"],
+            "quantidade": 5
+        },
+        {
+            "nome":"picolé de coco queimado",
+            "categorias":["picolé", "fruta", "coco", "tropical"],
+            "quantidade": 2
+        },
+        {
+            "nome":"milkshake de menta",
+            "categorias":["milkshake", "refrescante", "menta"],
+            "quantidade": 1
+        }
+    ],
+    "subtotal":20.00,
+    "descontos":0.00,
+    "valor_total":20.00,
+    "forma de pagamento": "crédito"
+}
