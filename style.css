@@ -88,6 +88,9 @@ nav button{
     line-height: 19px;
     margin-top: 45px;
 }
+#pix{
+    max-width: 50px;
+}
 table td, table th{
     border: 1px solid #ffffff;
     font-family: 'Inter';
