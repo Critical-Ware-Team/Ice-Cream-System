@@ -55,13 +55,14 @@ nav button{
     font-size: 40px;
     margin-top: 15px;
     line-height: 48px;
+    font-family: 'Inter';
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .subtotal{
     position: absolute;
     width: 527px;
-    height: 400px;
+    height: 500px;
     left: 955px;
     top: 72px;
     background: #FFD867;
@@ -77,6 +78,7 @@ nav button{
 .subtotal button{
     border: none;
     text-align: center;
+    font-family: 'Inter';
     color:rgba(255, 255, 255, 1);
     background: #584CB0;
     padding: 8px;
@@ -84,6 +86,73 @@ nav button{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
+    margin-top: 45px;
+}
+table td, table th{
+    border: 1px solid #ffffff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3C3C3C;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+.table_baixo{
+    margin-top:193px;
+}
+.pagamento{
+    position:absolute;
+    width: 527px;
+    height: 400px;
+    top: 580px;
+    left: 955px; 
+    background: #FFD867;
+}
+.pagamento h1{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 44px;
+    font-family: 'Inter';
+    text-align:center;
+    color: #3C3C3C;
+}
+.formas_pagamento{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 30px;
+    margin-left: 50px;
+    gap: 15px;
+}
+.formas_pagamento img{
+    max-width: 70px;
+}
+.formas_pagamento p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3C3C3C;
+}
+.div_pagamento{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.preco{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #06AA9D;
 }
 .box{
     display: flex;
@@ -146,3 +215,12 @@ nav button{
     background: #E8E8E8;
     border-radius: 54px;
 }
+.esquerda button{
+    padding: 9.3715px 14.9944px;
+    gap: 9.37px;
+    background: #E8E8E8;
+    border: none;
+    border-radius: 53.5514px;
+    margin-top: 15px;
+}
+
