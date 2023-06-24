@@ -135,6 +135,7 @@ nav button{
     margin: 3rem;
     border-radius: 8px;
     padding: 4%;
+    padding-bottom: 1%;
 }
 
 .alterar-imagem{
@@ -208,3 +209,74 @@ nav button{
     height: 2rem;
     border: none;
 }
+
+.notificacoes-configuracoes{
+    margin-top: 2rem;
+    margin-left: -37rem;
+}
+
+.seguranca-configuracoes{
+    display: flex;
+    flex-direction: column;
+    margin-top: -28.3rem;
+    margin-left: 25rem;
+}
+
+.seguranca-configuracoes input{
+    width: 20rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border-color: black;
+}
+
+.seguranca-configuracoes button{
+    background-color: #6E5EDA;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-left: -0.1rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+}
+
+.retangulo-cinza {
+  display: inline-flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  padding: 0.3rem;
+  border-radius: 5px;
+  gap: 15px;
+}
+
+.interruptor {
+  width: 45px;
+  height: 20px;
+  background-color: gray;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bolinha {
+  width: 15px;
+  height: 14px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.interruptor.ativo {
+  background-color: rgb(14, 203, 14);
+}
+
+.interruptor.ativo .bolinha {
+  transform: translateX(27px);
+}
+

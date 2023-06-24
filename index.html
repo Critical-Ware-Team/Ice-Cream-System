@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>estrutura gestor</title>
+    <script src="script.js"></script>
     
 </head>
 <body>
@@ -128,6 +129,55 @@
         <br>
         <button type="submit">Salvar Alterações</button>
     </div>
+    <div class="notificacoes-configuracoes">
+        <h2>Notificações Pop-up Dashboard</h2>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="Receber atualizações de estoque">
+        <label for="checkbox1">Receber atualizações de estoque</label>
+        <br>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="Receber atualizações de novos usuários cadastrados">
+        <label for="checkbox2">Receber atualizações de novos usuários cadastrados</label>
+        <br>
+        <input type="checkbox" id="checkbox3" name="checkbox3" value="Receber atualizações de novos pedidos">
+        <label for="checkbox3">Receber atualizações de novos pedidos</label>
+        <br>
+        <input type="checkbox" id="checkbox4" name="checkbox4" value="Receber atualizações de novas vendas">
+        <label for="checkbox4">Receber atualizações de novas vendas</label>
+        <br>
+        <br>
+        <h2>Notificações por email</h2>
+        <input type="checkbox" id="checkbox4" name="checkbox4" value="Receber solicitações de novos revendedores(email)">
+        <label for="checkbox4">Receber solicitações de novos revendedores(email)</label>
+    </div>
+    <div class="seguranca-configuracoes">
+        <h2>Segurança</h2>
+        <input type="password" name="senha" id="senha" placeholder="Nova Senha:" >
+        <input type="confirmpassword" name="senha" id="senha" placeholder="Confirme a Senha:" >
+        <button type="submit">Salvar Alterações</button>
+
+        <div>
+        <h2>Verificação em Duas Etapas</h2>
+            <div class="retangulo-cinza">
+             <h3>Verificação em Duas Etapas</h3>
+                <div class="interruptor" onclick="alternarEstado()">
+                 <div class="bolinha" id="bolinha"></div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="estado" name="estado" value="0">
+        <br>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email:" required>
+        <label for="code"></label>
+        <input type="code" id="code" name="code" placeholder="Código:" required>
+        <br>
+        <h2 style="margin-bottom: 0.5rem;">Alterar Dados de Comércio</h2>
+        <label for="business"></label>
+        <input type="business" id="business" name="business" placeholder="Comércio:" required style="margin-bottom: -0.5rem;">
+        <br>
+        <label for="adress"></label>
+        <input type="adress" id="adress" name="adress" placeholder="Endereço:" required>
+        <button type="submit">Salvar Alterações</button>
+        </div>
 </div>
     </main>
     <footer>
