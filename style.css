@@ -16,7 +16,7 @@ body{
     background-color: #C1BDDD;
     display: grid;
     grid-template-columns: 16vw 1fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    /* grid-template-rows: 1fr 8fr 1fr; */
     grid-template-areas: "header header"
                          "nav main"
                          "footer footer";
@@ -26,6 +26,7 @@ header, footer{
     display: flex;
     align-items: center;
     padding: 0 4%;
+    margin: 0;
 }
 
 #logo-sorveteria{
@@ -35,6 +36,8 @@ header, footer{
 
 header{
     grid-area: header;
+    top: 0;
+    height: 72px;
 }
 
 header img{
@@ -67,6 +70,8 @@ header h3{
 footer{
     grid-area: footer;
     font-weight: 600;
+    bottom: 0;
+    height: 72px;
 }
 
 main{
