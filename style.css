@@ -133,7 +133,7 @@ nav button{
 
 .container-usuarios{
     display: grid;
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
     width: 1047px;
     height: 743px;
@@ -141,3 +141,38 @@ nav button{
     margin-bottom: 2rem;
     border-radius: 32px;
 }
+
+.container-usuarios-cadastrados{
+    display: flex;
+    padding: 2rem;
+}
+
+.container-usuarios-cadastrados img{
+    margin-top: 0.4rem;
+    max-width: 3.125rem;
+    max-height: 3.125rem;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.container-usuarios-cadastrados hr {
+    border-color: black;
+    height: 743px;
+    margin-top: -2rem;
+}
+
+.container-tipo-de-usuario{
+    display: flex;
+    gap: 10px;
+    margin-top: 0.5rem;
+}
+
+.linha-horizontal {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-top: -43rem;
+}
+
