@@ -38,6 +38,7 @@ header{
     grid-area: header;
     top: 0;
     height: 72px;
+    overflow: hidden;
 }
 
 header img{
@@ -51,6 +52,8 @@ header h3{
 #header-main{
     background-color: #7F78B0;
     width: 100%;
+    height: 59px;
+    overflow: hidden;
 }
 
 #notificao-pop-up{
@@ -157,9 +160,10 @@ nav button{
     margin-right: 1rem;
 }
 
-.container-usuarios-cadastrados hr {
+.container-usuarios hr {
     border-color: black;
     height: 743px;
+    margin-right: 0.5rem;
     margin-top: -2rem;
 }
 
