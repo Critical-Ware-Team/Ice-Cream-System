@@ -16,6 +16,7 @@ body{
     background-color: #C1BDDD;
     display: grid;
     grid-template-columns: 16vw 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
     grid-template-areas: "header header"
                          "nav main"
                          "footer footer";
