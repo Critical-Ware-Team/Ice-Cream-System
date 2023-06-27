@@ -92,24 +92,6 @@ main h1{
     background: #FAF9FF;
     border-radius: 32px;
 }
-.titulo{
-    display: flex;
-    width: 90%;
-    height: 30px;
-    margin-top: 45px;
-    background: #A9A1DD;
-    border-radius: 32px;
-    justify-content: space-between;
-}
-.titulo p{
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 24px;
-    text-align: center;
-    padding: 4px;
-    color: #000000;
-}
 
 nav{
     grid-area: nav;
