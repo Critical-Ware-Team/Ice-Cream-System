@@ -139,7 +139,6 @@ nav button{
     flex-direction: row;
     background-color: white;
     width: 1047px;
-    height: 743px;
     margin-left: 7.5rem;
     margin-bottom: 2rem;
     border-radius: 32px;
@@ -147,6 +146,9 @@ nav button{
 
 .container-usuarios-cadastrados{
     display: flex;
+    height: 743px;
+    background-color: white;
+    border-radius: 32px;
     padding: 2rem;
 }
 
@@ -178,5 +180,6 @@ nav button{
     background-color: black;
     width: 100%;
     margin-top: -43rem;
+    z-index: 999;
 }
 
