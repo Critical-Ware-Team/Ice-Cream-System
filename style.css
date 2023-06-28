@@ -84,15 +84,41 @@ main h1{
 }
 .container{
     display: flex;
-    width: 1050px;
-    height: 550px;
+    width: 80%;
+    height: 75%;
     margin-left: 65px;
     margin-top: 20px;
     justify-content: center;
     background: #FAF9FF;
     border-radius: 32px;
 }
+.tabela{
+    justify-content: center;
+    padding-top: 4%;
+    width: 100%;
+    margin-left: 80px;
 
+}
+thead td, th{
+    border-radius: 32px;
+    background: #A9A1DD;
+    padding: 8px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #000000;
+}
+table, th, td{
+    border: 1px solid;
+    text-align: center;
+    font-size: 12px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 2px;
+    width: 90%;
+    height: 80%;
+    margin-top: 30px;
+}
 nav{
     grid-area: nav;
     background-color: #584CB0;
