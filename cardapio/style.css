@@ -27,8 +27,11 @@ footer{
 main{
     background-color: #584CB0;
     width: 100%;
-    padding: 64px 164px;
+    padding: 64px 128px 64px 0;
     box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 nav{
     position: relative;
@@ -43,88 +46,102 @@ nav button{
     color: black;
 }
 
-.filtro-produtos{
+.filtro-titulo{
     display: flex;
     align-items: center;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    gap: 20px;
+    margin: 0 0 20px 48px;
+}
+.filtro-titulo h2{
+    font-weight: 500;
+}
+.filtro-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     background-color: #3E3296;
+    border-radius: 0 8px 8px 0;
+    padding: 40px 0 72px;
+    box-sizing: border-box;
+    width: 340px;
     color: white;
-    margin-left: -10.2rem;
-    max-width: 21.5625rem;
-    height: 37.375rem;
-    border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
 }
-
-.filtro-produtos img {
-    margin-left: 4rem;
-    margin-right: 2rem;
-    margin-top: -31rem;
-}
-
-.filtro-produtos h2{
-    margin-top: -31rem;
-}
-
 .filtro-produtos hr {
-    margin-top: -25rem;
+    width: 100%;
     border-top: 1px solid white;
 }
-
+.scroll-button-right{
+    display: none;
+    position: absolute;
+    align-self: flex-end;
+}
+.scroll-button-left{
+    display: none;
+    position: absolute;
+    transform: rotate(180deg);
+}
 .filtro-sabores {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    width: 100%;
 }
-
 .filtro-sabores h2 {
-    margin-top: 10rem;
-    margin-left: -12rem;
+    margin: 20px 0 16px 48px;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
-
 .sabores-container {
+    position: relative;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(100% - 48px);
+    overflow-x: scroll;
+    padding-left: 48px;
+    gap: 20px;
+    height: calc(2*40px + 20px);
 }
-
 .sabores-container button {
-    margin: 5px;
-    padding: 10px 20px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0px 20px;
     border: none;
     border-radius: 24px;
     background-color: #FFD867;
-    color: black;
-    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     cursor: pointer;
     
 }
-
 .filtro-sabores img {
-    margin-top: -4rem;
-    margin-left: -80rem;
     cursor: pointer;
 }
-
 .container-produtos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-left: 30rem;
-    grid-gap: 2rem;
-    margin-top: -37.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: calc(4*160px + 3*20px + 1px);
 }
-
 .produto {
-    text-align: center;
-    max-width: 10.125rem;
-    height: 12.5rem;
     background-color: white;
+    width: 160px;
+    min-height: 200px;
+    box-sizing: border-box;
+    padding: 16px 8px 8px;
     border-radius: 8px;
-    padding: 1rem 0.5rem 0.5rem 0.5rem;
-    align-items: center;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-
 .produto p{
     text-align: center;
 }
