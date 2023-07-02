@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1, h2, h3, p{
+    margin: 0;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+header, footer{
+    background-color: white;
+    width: 100%;
+    height: 72px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+header{
+    padding: 0 164px;
+}
+footer{
+    justify-content: space-between;
+    padding: 0 45px;
+}
+main{
+    background-color: #584CB0;
+    width: 100%;
+    padding: 164px;
+    box-sizing: border-box;
+
+}
+nav{
+    position: relative;
+    left: 4%;
+    gap: 20px;
+}
+nav button{
+    border: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.sacola{
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    margin-top: -120px;
+    
+}
+.sacola h2{
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 15px;
+    line-height: 48px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.subtotal{
+    position: absolute;
+    width: 527px;
+    height: 500px;
+    left: 955px;
+    top: 72px;
+    background: #FFD867;
+}
+.subtotal h2{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Inter';
+    line-height: 48px;
+    text-align: center;
+    color: rgba(60, 60, 60, 1);
+}
+.subtotal button{
+    border: none;
+    text-align: center;
+    font-family: 'Inter';
+    color:rgba(255, 255, 255, 1);
+    background: #584CB0;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 45px;
+}
+#pix{
+    max-width: 50px;
+}
+table td, table th{
+    border: 1px solid #ffffff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3C3C3C;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+.table_baixo{
+    margin-top:193px;
+}
+.pagamento{
+    position:absolute;
+    width: 527px;
+    height: 400px;
+    top: 580px;
+    left: 955px; 
+    background: #FFD867;
+}
+.pagamento h1{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 44px;
+    font-family: 'Inter';
+    text-align:center;
+    color: #3C3C3C;
+}
+.formas_pagamento{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 30px;
+    margin-left: 50px;
+    gap: 15px;
+}
+.formas_pagamento img{
+    max-width: 70px;
+}
+.formas_pagamento p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #3C3C3C;
+}
+.div_pagamento{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.preco{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #06AA9D;
+}
+.box{
+    display: flex;
+    margin-top: 72px;
+    width: 500px;
+    height: 140px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.esquerda p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    align-items: center;
+    color: rgba(60, 60, 60, 0.64);
+}
+.box h3{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Inter';
+    line-height: 29px;
+    margin-top: 15px;
+    display: flex;
+    color: #3C3C3C;
+}
+.imagens{
+    display: flex;
+    flex-direction: column;
+}
+.foto_produto{
+    max-width: 120px;
+    float: left;
+}
+.lixeira{
+    max-height: 30px;
+    max-width: 30px;
+    margin-left: 145px;
+    margin-top: 15px;
+}
+.direita p{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 40px;
+    align-items: center;
+    text-align: right;
+    color: #3C3C3C;
+}
+.sinais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 2px;
+    gap: 9px;
+    width: 38.42px;
+    height: 37.49px;
+    background: #E8E8E8;
+    border-radius: 54px;
+}
+.esquerda button{
+    padding: 9.3715px 14.9944px;
+    gap: 9.37px;
+    background: #E8E8E8;
+    border: none;
+    border-radius: 53.5514px;
+    margin-top: 15px;
+}
+
