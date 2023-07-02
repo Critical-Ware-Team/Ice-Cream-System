@@ -145,3 +145,6 @@ nav button{
 .produto p{
     text-align: center;
 }
+.produto img{
+    max-width: 125px;
+}

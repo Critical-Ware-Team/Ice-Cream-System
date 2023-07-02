@@ -5,6 +5,7 @@
             "codigo": 100,
             "valor": 2.00,
             "qnt_estoque": 200,
+            "urlImg": "../assets/images/produtos/picolemanga.png",
             "categorias": [
                 "picolé",
                 "fruta",
@@ -53,6 +54,7 @@
             "codigo": 101,
             "valor": 3.50,
             "qnt_estoque": 150,
+            "urlImg": "../assets/images/produtos/sorvetechocolate.jpg",
             "categorias": [
                 "sorvete",
                 "chocolate"
@@ -98,6 +100,7 @@
             "codigo": 102,
             "valor": 6.00,
             "qnt_estoque": 100,
+            "urlImg": "../assets/images/produtos/sundaemorango.jpg",
             "categorias": [
                 "sundae",
                 "fruta",
@@ -144,6 +147,7 @@
             "codigo": 103,
             "valor": 7.50,
             "qnt_estoque": 80,
+            "urlImg": "../assets/images/produtos/milkshakebalnilha.jpg",
             "categorias": [
                 "milkshake",
                 "baunilha"
@@ -189,6 +193,7 @@
             "codigo": 104,
             "valor": 4.50,
             "qnt_estoque": 120,
+            "urlImg": "../assets/images/produtos/casquinhapistache.jpg",
             "categorias": [
                 "casquinha",
                 "pistache"
@@ -234,6 +239,7 @@
             "codigo": 105,
             "valor": 6.50,
             "qnt_estoque": 90,
+            "urlImg": "../assets/images/produtos/sundaecaramelosalgado.jpg",
             "categorias": [
                 "sundae",
                 "caramelo",
@@ -280,6 +286,7 @@
             "codigo": 106,
             "valor": 8.00,
             "qnt_estoque": 70,
+            "urlImg": "../assets/images/produtos/milkshakefrutasvermelhas.jpg",
             "categorias": [
                 "milkshake",
                 "frutas",
@@ -320,6 +327,245 @@
                 "sódio": 131.40
             },
             "descricao": "Refrescante milkshake com sorvete de baunilha, frutas vermelhas frescas, leite e chantilly para uma explosão de sabor frutado."
+        },
+        {
+            "nome": "Picolé de Coco",
+            "codigo": 108,
+            "valor": 3.50,
+            "qnt_estoque": 150,
+            "urlImg": "../assets/images/produtos/picolecoco.png",
+            "categorias": [
+                "picolé",
+                "fruta",
+                "coco"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "leite de coco",
+                "açúcar",
+                "água",
+                "essência de coco"
+            ],
+            "alergenicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 0,
+                "amendoa": 0,
+                "avela": 0,
+                "castanha_caju": 0,
+                "castanha_para": 0,
+                "macadamia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 85.60,
+                "carboidratos": 15.40,
+                "proteinas": 0.60,
+                "gorduras_totais": 2.20,
+                "gorduras_saturadas": 1.90,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 0.80,
+                "sodio": 7.20
+            },
+            "descricao": "Refrescante picolé de coco feito com leite de coco, açúcar, água e essência de coco. Sabor tropical e cremoso para desfrutar nos dias quentes."
+        },
+        {
+            "nome": "Picolé de Maracujá",
+            "codigo": 110,
+            "valor": 2.50,
+            "qnt_estoque": 100,
+            "urlImg": "../assets/images/produtos/picolemaracuja.png",
+            "categorias": [
+                "picolé",
+                "fruta",
+                "maracujá",
+                "tropical"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "suco de maracujá",
+                "água",
+                "açúcar",
+                "polpa de maracujá"
+            ],
+            "alergenicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 0,
+                "amendoa": 0,
+                "avela": 0,
+                "castanha_caju": 0,
+                "castanha_para": 0,
+                "macadamia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 78.90,
+                "carboidratos": 19.80,
+                "proteinas": 0.40,
+                "gorduras_totais": 0.20,
+                "gorduras_saturadas": 0.10,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 1.60,
+                "sodio": 1.50
+            },
+            "descricao": "Picolé refrescante de maracujá feito com suco e polpa de maracujá, água e açúcar. Sabor cítrico e tropical para aproveitar nos dias quentes."
+        },
+        {
+            "nome": "Picolé de Abacate",
+            "codigo": 150,
+            "valor": 3.50,
+            "qnt_estoque": 80,
+            "urlImg": "../assets/images/produtos/picoleabacate.png",
+            "categorias": [
+                "picolé",
+                "fruta",
+                "abacate",
+                "cremoso"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "abacate maduro",
+                "leite condensado",
+                "leite",
+                "açúcar"
+            ],
+            "alergenicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amendoa": 0,
+                "avela": 0,
+                "castanha_caju": 0,
+                "castanha_para": 0,
+                "macadamia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 175.60,
+                "carboidratos": 20.30,
+                "proteinas": 2.50,
+                "gorduras_totais": 10.20,
+                "gorduras_saturadas": 5.30,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 3.80,
+                "sodio": 32.90
+            },
+            "descricao": "Picolé cremoso de abacate feito com abacates maduros, leite condensado, leite e açúcar. Sabor suave e textura aveludada para se deliciar a qualquer momento."
+        },
+        {
+            "nome": "Picolé de Abacaxi",
+            "codigo": 200,
+            "valor": 2.50,
+            "qnt_estoque": 150,
+            "urlImg": "../assets/images/produtos/picoleabacaxi.png",
+            "categorias": [
+                "picolé",
+                "fruta",
+                "abacaxi",
+                "refrescante"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "abacaxi natural",
+                "água",
+                "açúcar",
+                "limão"
+            ],
+            "alergenicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 0,
+                "amendoa": 0,
+                "avela": 0,
+                "castanha_caju": 0,
+                "castanha_para": 0,
+                "macadamia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 90.80,
+                "carboidratos": 22.10,
+                "proteinas": 0.50,
+                "gorduras_totais": 0.10,
+                "gorduras_saturadas": 0.00,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 1.80,
+                "sodio": 2.60
+            },
+            "descricao": "Picolé refrescante de abacaxi feito com abacaxi natural, água, açúcar e um toque de limão. Uma explosão de sabor tropical para se refrescar nos dias quentes."
+        },
+        {
+            "nome": "Picolé de Amora",
+            "codigo": 300,
+            "valor": 3.50,
+            "qnt_estoque": 100,
+            "urlImg": "../assets/images/produtos/picoleamora.png",
+            "categorias": [
+                "picolé",
+                "fruta",
+                "amora",
+                "refrescante"
+            ],
+            "consumo_imediato": true,
+            "ingredientes": [
+                "amoras frescas",
+                "água",
+                "açúcar",
+                "limão"
+            ],
+            "alergenicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 0,
+                "amendoa": 0,
+                "avela": 0,
+                "castanha_caju": 0,
+                "castanha_para": 0,
+                "macadamia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 80.60,
+                "carboidratos": 20.80,
+                "proteinas": 0.70,
+                "gorduras_totais": 0.20,
+                "gorduras_saturadas": 0.00,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 2.50,
+                "sodio": 1.90
+            },
+            "descricao": "Picolé refrescante de amora feito com amoras frescas, água, açúcar e um toque de limão. Desfrute de um sabor intenso e natural de amora em cada mordida."
         }
     ]
 }
