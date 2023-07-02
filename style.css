@@ -52,7 +52,7 @@ header h3{
 footer{
     grid-area: footer;
     font-weight: 600;
-    bottom: 0;
+    margin-top: auto;
     height: 72px;
 }
 
@@ -64,11 +64,17 @@ main{
     margin-left: 60rem;
 }
 
+.imagemconfirmapedido{
+    margin-top: -38.69rem;
+    margin-left: 21rem;
+    margin-bottom: -2.4rem;
+}
+
 .container-pedido-processado{
     background-color: #D9D9D9;
     border-radius: 32px;
-    margin-top: 5rem;
-    margin-left: -5rem;
+    margin-top: 9rem;
+    margin-left: -9rem;
     max-width: 24.563rem;
     height: 27.75rem;
 }
