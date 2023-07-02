@@ -13,7 +13,7 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     color: #1B2023;
-    background-color: #C1BDDD;
+    background-color: #584CB0;
     display: grid;
     grid-template-columns: 16vw 1fr;
     grid-template-rows: 1fr 8fr 1fr;
@@ -49,26 +49,6 @@ header h3{
     margin-left: 5rem;
 }
 
-#header-main{
-    background-color: #7F78B0;
-    width: 100%;
-    overflow: hidden;
-}
-
-#notificao-pop-up{
-    margin-left: 45rem;
-    margin-bottom: 0.5rem
-}
-
-#foto-de-perfil{
-    margin-top: 0.4rem;
-    max-width: 3rem;
-    max-height: 3rem;
-    border-radius: 50%;
-    overflow: hidden;
-    object-fit: cover;
-}
-
 footer{
     grid-area: footer;
     font-weight: 600;
@@ -79,56 +59,43 @@ footer{
 main{
     grid-area: main;
 }
-nav{
-    grid-area: nav;
-    background-color: #584CB0;
-    padding-top: 8%;
-    position: relative;
-}
-#buttons{
-    position: fixed;
-    left: 0;
-    width: fit-content;
-}
-nav button{
-    position: relative;
-    display: flex;
-    align-items: center;
-
-    background-color: transparent;
-    border: none;
-
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    color: #C1BDDD;
-
-    box-sizing: border-box;
-    width: 16vw;
-    gap: 8%;
-    padding: 4% 8% 4% 24%;
-
-}
-#selection-bar{
-    width: 1%;
-    background-color: #F5F5F5;
-    height: 100%;
-    border-radius: 0px 16px 16px 0px;
-    position: absolute;
-    left: 0px;
-    opacity: 0;
-}
-#selected-nav{
-    color: white;
-}
-#selected-nav path{
-    stroke: white;
-}
-#selected-nav #selection-bar{
-    opacity: 1;
-}
 
 #socials{
     margin-left: 60rem;
+}
+
+.container-pedido-processado{
+    background-color: #D9D9D9;
+    border-radius: 32px;
+    margin-top: 5rem;
+    margin-left: -5rem;
+    max-width: 24.563rem;
+    height: 27.75rem;
+}
+
+.container-pedido-processado img{
+    margin-top: 5rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+}
+
+.container-pedido-processado h1{
+    color: #3C3C3C;
+    margin-left: 2.5rem;
+}
+
+.container-pedido-processado h2{
+    color: #3C3C3C;
+    margin-left: 2.5rem;
+}
+
+.container-pedido-processado button{
+    color: #FFFFFF;
+    border: none;
+    background-color: #EC479E;
+    border-radius: 32px;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    width: 8.125rem;
+    height: 2.313rem;
 }
