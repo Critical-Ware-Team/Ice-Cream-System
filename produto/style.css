@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1, h2, h3, p{
+    margin: 0;
+}
+*{
+    font-size: 18px;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 72px 0 56px;
+}
+h3{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+header, footer{
+    background-color: white;
+    width: 100%;
+    height: 72px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+header{
+    padding: 0 164px;
+}
+footer{
+    justify-content: space-between;
+    padding: 0 45px;
+}
+main{
+    background-color: #584CB0;
+    width: 100%;
+    padding: 64px 164px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+nav{
+    position: relative;
+    left: 4%;
+    gap: 20px;
+}
+nav button{
+    border: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.descricao{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.texts  p:nth-child(2){
+    width: 580px;
+    margin: 20px 0;
+}
+.texts  p:nth-child(3){
+    font-weight: 600;
+}
+.ingredientes p{
+    width: 800px;
+}
+.nutri-cards-row{
+    display: flex;
+    gap: 40px;
+}
+.nutri-card{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 32px;
+    color: #0B024B;
+    text-align: center;
+    width: 140px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.nutri-value{
+    background-color: #FFD867;
+    width: 100%;
+    border-top: 3px solid black;
+    padding: 20px;
+}
+.simil-cards-row{
+    display: flex;
+    gap: 40px;
+}
+.simil-card{
+    background-color: white;
+    color: #0B024B;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    border-radius: 16px;
+    font-weight: 500;
+    padding: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card-comprar{
+    position: fixed ;
+    right: 0;
+    top: 180px;
+    width: 180px;
+}
+.branco{
+    background-color: white;
+    color: #3C3C3C;
+    text-align: center;
+    font-weight: 600;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    z-index: 10;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.cor{
+    background-color: #EC268F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 10px;
+    position: relative;
+    top: -20px;
+    z-index: 1;
+    border-bottom-left-radius: 8px;
+}
