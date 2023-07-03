@@ -9,6 +9,7 @@ window.onload = () => {
                     const descricao = document.getElementsByClassName("descricao")[0];
                     const ingredientes = document.getElementsByClassName("ingredientes")[0];
                     const nutricional = document.getElementsByClassName("nutricional")[0];
+                    const similares = document.getElementsByClassName("simil-cards-row")[0];
                     descricao.innerHTML = `
                         <img src="${jsonProdutos.produtos[i].urlImg}" alt="${jsonProdutos.produtos[i].nome}">
                         <div class="texts">
@@ -33,8 +34,108 @@ window.onload = () => {
                         else{
                             ingredientesString += `${jsonProdutos.produtos[i].ingredientes[j]}, `;
                         }
+                        document.querySelector(".ingredientes>p").innerHTML = `${ingredientesString}`;
                     }
-                    document.querySelector(".ingredientes>p").innerHTML = `${ingredientesString}`;
+                    nutricional.innerHTML = `
+                        <h2>Informações Nutricionais</h2>
+                        <div class="nutri-cards-row">
+                            <div class="nutri-card">
+                                <h3>energia</h3>
+                                <p>${jsonProdutos.produtos[i].nutricional.valor_energetico}kcal</p>
+                                <div class="nutri-value">
+                                    <p>${(jsonProdutos.produtos[i].nutricional.valor_energetico/2000*100).toFixed(1)}%</p>
+                                </div>
+                            </div>
+                            <div class="nutri-card">
+                                <h3>gorduras</h3>
+                                <p>${jsonProdutos.produtos[i].nutricional.gorduras_totais}g</p>
+                                <div class="nutri-value">
+                                    <p>${(jsonProdutos.produtos[i].nutricional.gorduras_totais/55*100).toFixed(1)}%</p>
+                                </div>
+                            </div>
+                            <div class="nutri-card">
+                                <h3>sal</h3>
+                                <p>${jsonProdutos.produtos[i].nutricional.sodio}mg</p>
+                                <div class="nutri-value">
+                                    <p>${(jsonProdutos.produtos[i].nutricional.sodio/2400*100).toFixed(1)}%</p>
+                                </div>
+                            </div>
+                            <div class="nutri-card">
+                                <h3>carboidratos</h3>
+                                <p>${jsonProdutos.produtos[i].nutricional.carboidratos}g</p>
+                                <div class="nutri-value">
+                                    <p>${(jsonProdutos.produtos[i].nutricional.carboidratos/300*100).toFixed(1)}%</p>
+                                </div>
+                            </div>
+                            <div class="nutri-card">
+                                <h3>proteínas</h3>
+                                <p>${jsonProdutos.produtos[i].nutricional.proteinas}g</p>
+                                <div class="nutri-value">
+                                    <p>${(jsonProdutos.produtos[i].nutricional.proteinas/75*100).toFixed(1)}%</p>
+                                </div>
+                            </div>`;
+                    let similaresArray = jsonProdutos.produtos.filter(function(produto) {
+                        return produto.categorias.some(function(categoria) {
+                            return jsonProdutos.produtos[i].categorias.includes(categoria);
+                        });
+                    });
+                    console.log(similaresArray);
+                    let nRandom = [];
+                    if(similaresArray.length<5){
+                        for(let j=0; j<(5-similaresArray.length); j++){
+                            let control;
+                            do
+                            {
+                                control=0;
+                                nRandom[j] = Math.ceil(Math.random() * (jsonProdutos.produtos.length-1));
+                                for(let k=0; k<(5-similaresArray.length); k++){
+                                    if(nRandom[j]==nRandom[k] && k!=j){
+                                        control=1;
+                                    }
+                                }
+                            }while(control == 1);
+                        }
+                        console.log(nRandom);
+                        similares.innerHTML='';
+                        for(let j=0; j<similaresArray.length; j++){
+                            similares.innerHTML += `
+                                <div class="simil-card">
+                                    <img src="${similaresArray[j].urlImg}" alt="${similaresArray[j].nome}">
+                                    <p>${similaresArray[j].nome}</p>
+                                </div>`;
+                        }
+                        for(let j=0; j<nRandom.length; j++){
+                            similares.innerHTML += `
+                                <div class="simil-card">
+                                    <img src="${jsonProdutos.produtos[nRandom[j]].urlImg}" alt="${jsonProdutos.produtos[nRandom[j]].nome}">
+                                    <p>${jsonProdutos.produtos[nRandom[j]].nome}</p>
+                                </div>`;
+                        }
+                    }
+                    else{
+                        for(let j=0; j<5; j++){
+                            let control;
+                            do
+                            {
+                                control=0;
+                                nRandom[j] = Math.ceil(Math.random() * (similaresArray.length-1));
+                                for(let k=0; k<5; k++){
+                                    if(nRandom[j]==nRandom[k] && k!=j){
+                                        control=1;
+                                    }
+                                }
+                            }while(control == 1);
+                        }
+                        console.log(nRandom);
+                        similares.innerHTML='';
+                        for(let j=0; j<5; j++){
+                            similares.innerHTML += `
+                                <div class="simil-card">
+                                    <img src="${similaresArray[nRandom[j]].urlImg}" alt="${similaresArray[nRandom[j]].nome}">
+                                    <p>${similaresArray[nRandom[j]].nome}</p>
+                                </div>`;
+                        }
+                    }
                     break;
                 }
             }

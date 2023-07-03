@@ -20,7 +20,7 @@
                 "manga",
                 "açucar"
             ],
-            "alergênicos": {
+            "alergenicos": {
                 "trigo": 0,
                 "cevada": 0,
                 "aveia": 0,
@@ -45,7 +45,7 @@
                 "gorduras_saturadas": 0.90,
                 "gorduras_trans": 0.00,
                 "fibra_alimentar": 0.00,
-                "sódio": 9.80
+                "sodio": 9.80
             },
             "descricao": "Picolé de fruta, extremamente cremoso. Feito com água filtrada, açúcar cristal e polpa de manga."
         },
@@ -66,7 +66,7 @@
                 "chocolate em pó",
                 "açúcar"
             ],
-            "alergênicos": {
+            "alergenicos": {
                 "trigo": 0,
                 "cevada": 0,
                 "aveia": 0,
@@ -74,11 +74,11 @@
                 "amendoim": 0,
                 "soja": 0,
                 "leite": 1,
-                "amêndoa": 0,
-                "avelã": 0,
+                "amendoa": 0,
+                "avela": 0,
                 "castanha_de_caju": 0,
-                "castanha_do_pará": 0,
-                "macadâmia": 0,
+                "castanha_do_para": 0,
+                "macadamia": 0,
                 "noz": 0,
                 "pistache": 0,
                 "pinoli": 0
@@ -91,7 +91,7 @@
                 "gorduras_saturadas": 6.50,
                 "gorduras_trans": 0.00,
                 "fibra_alimentar": 0.80,
-                "sódio": 41.20
+                "sodio": 41.20
             },
             "descricao": "Sorvete cremoso de chocolate feito com ingredientes de alta qualidade."
         },
@@ -113,7 +113,7 @@
                 "chantilly",
                 "morangos"
             ],
-            "alergênicos": {
+            "alergenicos": {
                 "trigo": 0,
                 "cevada": 0,
                 "aveia": 0,
@@ -121,11 +121,11 @@
                 "amendoim": 0,
                 "soja": 0,
                 "leite": 1,
-                "amêndoa": 0,
-                "avelã": 0,
+                "amendoa": 0,
+                "avela": 0,
                 "castanha_de_caju": 0,
-                "castanha_do_pará": 0,
-                "macadâmia": 0,
+                "castanha_do_para": 0,
+                "macadamia": 0,
                 "noz": 0,
                 "pistache": 0,
                 "pinoli": 0
@@ -138,7 +138,7 @@
                 "gorduras_saturadas": 8.10,
                 "gorduras_trans": 0.00,
                 "fibra_alimentar": 1.20,
-                "sódio": 68.90
+                "sodio": 68.90
             },
             "descricao": "Delicioso sundae com sorvete de creme, calda de morango, chantilly e morangos frescos."
         },
@@ -159,7 +159,7 @@
                 "chantilly",
                 "calda de caramelo"
             ],
-            "alergênicos": {
+            "alergenicos": {
                 "trigo": 0,
                 "cevada": 0,
                 "aveia": 0,
@@ -167,11 +167,11 @@
                 "amendoim": 0,
                 "soja": 0,
                 "leite": 1,
-                "amêndoa": 0,
-                "avelã": 0,
+                "amendoa": 0,
+                "avela": 0,
                 "castanha_de_caju": 0,
-                "castanha_do_pará": 0,
-                "macadâmia": 0,
+                "castanha_do_para": 0,
+                "macadamia": 0,
                 "noz": 0,
                 "pistache": 0,
                 "pinoli": 0
@@ -184,7 +184,7 @@
                 "gorduras_saturadas": 9.60,
                 "gorduras_trans": 0.10,
                 "fibra_alimentar": 0.50,
-                "sódio": 170.40
+                "sodio": 170.40
             },
             "descricao": "Um clássico milkshake de baunilha com chantilly e calda de caramelo."
         },
@@ -205,7 +205,7 @@
                 "cobertura de chocolate branco",
                 "pistache picado"
             ],
-            "alergênicos": {
+            "alergenicos": {
                 "trigo": 0,
                 "cevada": 0,
                 "aveia": 0,
@@ -213,11 +213,11 @@
                 "amendoim": 0,
                 "soja": 0,
                 "leite": 1,
-                "amêndoa": 0,
-                "avelã": 0,
+                "amendoa": 0,
+                "avela": 0,
                 "castanha_de_caju": 0,
-                "castanha_do_pará": 0,
-                "macadâmia": 0,
+                "castanha_do_para": 0,
+                "macadamia": 0,
                 "noz": 0,
                 "pistache": 1,
                 "pinoli": 0
@@ -230,7 +230,7 @@
                 "gorduras_saturadas": 4.60,
                 "gorduras_trans": 0.00,
                 "fibra_alimentar": 0.90,
-                "sódio": 33.80
+                "sodio": 33.80
             },
             "descricao": "Casquinha crocante com sorvete de pistache, cobertura de chocolate branco e pistache picado por cima."
         },
@@ -252,7 +252,7 @@
                 "chantilly",
                 "amendoim torrado"
             ],
-            "alergênicos": {
+            "alergenicos": {
                 "trigo": 0,
                 "cevada": 0,
                 "aveia": 0,
@@ -260,11 +260,11 @@
                 "amendoim": 1,
                 "soja": 0,
                 "leite": 1,
-                "amêndoa": 0,
-                "avelã": 0,
+                "amendoa": 0,
+                "avela": 0,
                 "castanha_de_caju": 0,
-                "castanha_do_pará": 0,
-                "macadâmia": 0,
+                "castanha_do_para": 0,
+                "macadamia": 0,
                 "noz": 0,
                 "pistache": 0,
                 "pinoli": 0
@@ -277,7 +277,7 @@
                 "gorduras_saturadas": 7.20,
                 "gorduras_trans": 0.00,
                 "fibra_alimentar": 1.80,
-                "sódio": 132.50
+                "sodio": 132.50
             },
             "descricao": "Sundae com sorvete de creme, calda de caramelo salgado, chantilly e amendoim torrado para uma combinação perfeita de doce e salgado."
         },
@@ -299,7 +299,7 @@
                 "leite",
                 "chantilly"
             ],
-            "alergênicos": {
+            "alergenicos": {
                 "trigo": 0,
                 "cevada": 0,
                 "aveia": 0,
@@ -307,11 +307,11 @@
                 "amendoim": 0,
                 "soja": 0,
                 "leite": 1,
-                "amêndoa": 0,
-                "avelã": 0,
+                "amendoa": 0,
+                "avela": 0,
                 "castanha_de_caju": 0,
-                "castanha_do_pará": 0,
-                "macadâmia": 0,
+                "castanha_do_para": 0,
+                "macadamia": 0,
                 "noz": 0,
                 "pistache": 0,
                 "pinoli": 0
@@ -324,7 +324,7 @@
                 "gorduras_saturadas": 8.70,
                 "gorduras_trans": 0.10,
                 "fibra_alimentar": 2.10,
-                "sódio": 131.40
+                "sodio": 131.40
             },
             "descricao": "Refrescante milkshake com sorvete de baunilha, frutas vermelhas frescas, leite e chantilly para uma explosão de sabor frutado."
         },
