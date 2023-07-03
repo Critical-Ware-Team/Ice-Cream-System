@@ -92,22 +92,16 @@ main h1{
     background: #FAF9FF;
     border-radius: 32px;
 }
-.tabela{
-    justify-content: center;
-    padding-top: 4%;
-    width: 100%;
-    margin-left: 80px;
-
-}
 thead td, th{
-    border-radius: 32px;
     background: #A9A1DD;
+    border: 0px;
+    border-radius:2px;
     padding: 8px;
     font-family: 'Poppins';
     font-weight: 500;
     color: #000000;
 }
-table, th, td{
+tbody, th, td{
     border: 1px solid;
     text-align: center;
     font-size: 12px;
