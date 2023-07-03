@@ -99,14 +99,14 @@ window.onload = () => {
                         similares.innerHTML='';
                         for(let j=0; j<similaresArray.length; j++){
                             similares.innerHTML += `
-                                <div class="simil-card">
+                                <div class="simil-card" id="${similaresArray[j].codigo}">
                                     <img src="${similaresArray[j].urlImg}" alt="${similaresArray[j].nome}">
                                     <p>${similaresArray[j].nome}</p>
                                 </div>`;
                         }
                         for(let j=0; j<nRandom.length; j++){
                             similares.innerHTML += `
-                                <div class="simil-card">
+                                <div class="simil-card" id="${jsonProdutos.produtos[nRandom[j]].codigo}">
                                     <img src="${jsonProdutos.produtos[nRandom[j]].urlImg}" alt="${jsonProdutos.produtos[nRandom[j]].nome}">
                                     <p>${jsonProdutos.produtos[nRandom[j]].nome}</p>
                                 </div>`;
@@ -130,11 +130,17 @@ window.onload = () => {
                         similares.innerHTML='';
                         for(let j=0; j<5; j++){
                             similares.innerHTML += `
-                                <div class="simil-card">
+                                <div class="simil-card" id="${similaresArray[nRandom[j]].codigo}">
                                     <img src="${similaresArray[nRandom[j]].urlImg}" alt="${similaresArray[nRandom[j]].nome}">
                                     <p>${similaresArray[nRandom[j]].nome}</p>
                                 </div>`;
                         }
+                    }
+                    for(let j=0; j<document.getElementsByClassName("simil-card").length; j++){
+                        document.getElementsByClassName("simil-card")[j].addEventListener("click", ()=>{
+                            localStorage.setItem("codigo-produto", document.getElementsByClassName("simil-card")[j].id);
+                            window.location.href = "../produto/";
+                        });
                     }
                     break;
                 }
