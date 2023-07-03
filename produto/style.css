@@ -124,6 +124,12 @@ nav button{
     top: 180px;
     width: 180px;
 }
+#quantidade{
+    font-size: 16px;
+}
+.branco label{
+    font-size: 10px;
+}
 .branco{
     background-color: white;
     color: #3C3C3C;
@@ -150,4 +156,7 @@ nav button{
     top: -20px;
     z-index: 1;
     border-bottom-left-radius: 8px;
+}
+.branco input {
+    max-width: 100%;
 }
