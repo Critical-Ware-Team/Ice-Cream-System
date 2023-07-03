@@ -1,4 +1,10 @@
 window.onload = () => {
+    document.getElementsByClassName("nav-btn")[0].addEventListener("click", ()=>{
+        window.location.href = "../cardapio/";
+    });
+    document.getElementsByClassName("nav-btn")[2].addEventListener("click", ()=>{
+        window.location.href = "../carrinho/";
+    });
     const produtoSelecionado = localStorage.getItem("codigo-produto");
     fetch("../assets/database/produtos.json")
         .then((res) => res.json())
