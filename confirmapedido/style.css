@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, header, footer, #body-row{
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+p, h1, h2, h3{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #1B2023;
+    background-color: #584CB0;
+    display: grid;
+    grid-template-columns: 16vw 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas: "header header"
+                         "nav main"
+                         "footer footer";
+}
+header, footer{
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    margin: 0;
+}
+
+#logo-sorveteria{
+    margin-left: 7rem;
+    margin-right: 10rem;
+}
+
+header{
+    grid-area: header;
+    top: 0;
+    height: 72px;
+    overflow: hidden;
+}
+
+header img{
+    padding: 1rem;
+}
+
+header h3{
+    margin-left: 5rem;
+}
+
+footer{
+    grid-area: footer;
+    font-weight: 600;
+    margin-top: auto;
+    height: 72px;
+}
+
+main{
+    grid-area: main;
+}
+
+#socials{
+    margin-left: 60rem;
+}
+
+.imagemconfirmapedido{
+    margin-top: -38.69rem;
+    margin-left: 21rem;
+    margin-bottom: -2.4rem;
+}
+
+.container-pedido-processado{
+    background-color: #D9D9D9;
+    border-radius: 32px;
+    margin-top: 9rem;
+    margin-left: -9rem;
+    max-width: 24.563rem;
+    height: 27.75rem;
+}
+
+.container-pedido-processado img{
+    margin-top: 5rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+}
+
+.container-pedido-processado h1{
+    color: #3C3C3C;
+    margin-left: 2.5rem;
+}
+
+.container-pedido-processado h2{
+    color: #3C3C3C;
+    margin-left: 2.5rem;
+}
+
+.container-pedido-processado button{
+    color: #FFFFFF;
+    border: none;
+    background-color: #EC479E;
+    border-radius: 32px;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    width: 8.125rem;
+    height: 2.313rem;
+}
