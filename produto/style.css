@@ -124,7 +124,7 @@ nav button{
 .simil-card>img{
     max-height: 150px;
 }
-.card-comprar{
+#card-comprar{
     position: fixed ;
     right: 0;
     top: 180px;

@@ -81,7 +81,7 @@ window.onload = () => {
                                 </div>
                             </div>`;
                     let similaresArray = jsonProdutos.produtos.filter(function(produto) {
-                        return produto.categorias.some(function(categoria) {
+                        return produto.categorias.some(function(categoria){
                             return jsonProdutos.produtos[i].categorias.includes(categoria);
                         });
                     });
@@ -148,6 +148,22 @@ window.onload = () => {
                             window.location.href = "../produto/";
                         });
                     }
+                    let carrinho = [];
+                    if(localStorage.hasOwnProperty("carrinho")){
+                        carrinho = JSON.parse(localStorage.getItem("carrinho"));
+                    }
+                    const buyBtn = document.getElementById("card-comprar");
+                    buyBtn.addEventListener("click", ()=>{
+                        if(carrinho.some((e)=>jsonProdutos.produtos[i]==e)){
+                            //nada
+                        }
+                        else{
+                            carrinho.push(jsonProdutos.produtos[i]);
+                            carrinho[carrinho.length-1].quantidade = 1;
+                            console.log(carrinho);
+                            localStorage.setItem("carrinho", JSON.stringify(carrinho));
+                        }
+                    });
                     break;
                 }
             }

@@ -4,7 +4,7 @@
             "nome": "Picolé de manga",
             "codigo": 100,
             "valor": 2.00,
-            "qnt_estoque": 200,
+            "quantidade": 200,
             "urlImg": "../assets/images/produtos/picolemanga.png",
             "categorias": [
                 "picolé",
@@ -53,7 +53,7 @@
             "nome": "Sorvete de chocolate",
             "codigo": 101,
             "valor": 3.50,
-            "qnt_estoque": 150,
+            "quantidade": 150,
             "urlImg": "../assets/images/produtos/sorvetechocolate.jpg",
             "categorias": [
                 "sorvete",
@@ -99,7 +99,7 @@
             "nome": "Sundae de morango",
             "codigo": 102,
             "valor": 6.00,
-            "qnt_estoque": 100,
+            "quantidade": 100,
             "urlImg": "../assets/images/produtos/sundaemorango.jpg",
             "categorias": [
                 "sundae",
@@ -146,7 +146,7 @@
             "nome": "Milkshake de baunilha",
             "codigo": 103,
             "valor": 7.50,
-            "qnt_estoque": 80,
+            "quantidade": 80,
             "urlImg": "../assets/images/produtos/milkshakebalnilha.jpg",
             "categorias": [
                 "milkshake",
@@ -192,7 +192,7 @@
             "nome": "Casquinha de Pistache",
             "codigo": 104,
             "valor": 4.50,
-            "qnt_estoque": 120,
+            "quantidade": 120,
             "urlImg": "../assets/images/produtos/casquinhapistache.jpg",
             "categorias": [
                 "casquinha",
@@ -238,7 +238,7 @@
             "nome": "Sundae de Caramelo Salgado",
             "codigo": 105,
             "valor": 6.50,
-            "qnt_estoque": 90,
+            "quantidade": 90,
             "urlImg": "../assets/images/produtos/sundaecaramelosalgado.jpg",
             "categorias": [
                 "sundae",
@@ -285,7 +285,7 @@
             "nome": "Milkshake de Frutas Vermelhas",
             "codigo": 106,
             "valor": 8.00,
-            "qnt_estoque": 70,
+            "quantidade": 70,
             "urlImg": "../assets/images/produtos/milkshakefrutasvermelhas.jpg",
             "categorias": [
                 "milkshake",
@@ -332,7 +332,7 @@
             "nome": "Picolé de Coco",
             "codigo": 108,
             "valor": 3.50,
-            "qnt_estoque": 150,
+            "quantidade": 150,
             "urlImg": "../assets/images/produtos/picolecoco.png",
             "categorias": [
                 "picolé",
@@ -379,7 +379,7 @@
             "nome": "Picolé de Maracujá",
             "codigo": 110,
             "valor": 2.50,
-            "qnt_estoque": 100,
+            "quantidade": 100,
             "urlImg": "../assets/images/produtos/picolemaracuja.png",
             "categorias": [
                 "picolé",
@@ -427,7 +427,7 @@
             "nome": "Picolé de Abacate",
             "codigo": 150,
             "valor": 3.50,
-            "qnt_estoque": 80,
+            "quantidade": 80,
             "urlImg": "../assets/images/produtos/picoleabacate.png",
             "categorias": [
                 "picolé",
@@ -475,7 +475,7 @@
             "nome": "Picolé de Abacaxi",
             "codigo": 200,
             "valor": 2.50,
-            "qnt_estoque": 150,
+            "quantidade": 150,
             "urlImg": "../assets/images/produtos/picoleabacaxi.png",
             "categorias": [
                 "picolé",
@@ -523,7 +523,7 @@
             "nome": "Picolé de Amora",
             "codigo": 300,
             "valor": 3.50,
-            "qnt_estoque": 100,
+            "quantidade": 100,
             "urlImg": "../assets/images/produtos/picoleamora.png",
             "categorias": [
                 "picolé",
