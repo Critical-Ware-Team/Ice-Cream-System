@@ -151,16 +151,18 @@ window.onload = () => {
                     }
                     const buyBtn = document.getElementsByClassName("cor")[0];
                     buyBtn.addEventListener("click", ()=>{
-                        if(carrinho.some((e)=>jsonProdutos.produtos[i]==e)){
-                            //nada
+                        let pCarrinho = carrinho.find(pCarrinho => pCarrinho.nome === jsonProdutos.produtos[i].nome);
+                        if(pCarrinho){
+                            pCarrinho.quantidade = pCarrinho.quantidade + parseFloat(document.getElementById("quantidade").value);
+                            localStorage.setItem("carrinho", JSON.stringify(carrinho));
                         }
                         else{
                             carrinho.push(jsonProdutos.produtos[i]);
-                            carrinho[carrinho.length-1].quantidade = document.getElementById("quantidade").value;
-                            console.log(carrinho);
+                            carrinho[carrinho.length-1].quantidade = parseFloat(document.getElementById("quantidade").value);
                             localStorage.setItem("carrinho", JSON.stringify(carrinho));
                         }
                     });
+                    console.log(carrinho);
                     break;
                 }
             }
