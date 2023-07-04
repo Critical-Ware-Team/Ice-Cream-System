@@ -336,3 +336,11 @@ dialog::backdrop{
     top: 20px;
     right: 40px;
 }
+
+#texto_subtotal p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+}

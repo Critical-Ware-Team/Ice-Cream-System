@@ -36,6 +36,8 @@ window.onload = () => {
                 soma += (produto.valor) * (produto.quantidade);
                 console.log(`soma = ${soma}`);
         });
+        const textoSubtotal = document.getElementById("texto_subtotal");
+        textoSubtotal.innerHTML = `<p>R$ ${soma}</p>`;//exibe subtotal
         const btnPlus = document.getElementsByClassName("btnPlus");
         const btnMinus = document.getElementsByClassName("btnMinus");
         const lixeira = document.getElementsByClassName("lixeira");
@@ -50,6 +52,8 @@ window.onload = () => {
                 else{
                     document.getElementsByClassName("qnt")[i].innerHTML = `${carrinho[i].quantidade}`;
                     document.getElementsByClassName("total")[i].innerHTML = `R$${(carrinho[i].quantidade) * (carrinho[i].valor)}`;
+                    soma -= carrinho[i].valor;//diminui subtotal final
+                    textoSubtotal.innerHTML = `<p>R$ ${soma}</p>`;//atualiza subtotal final
                     localStorage.setItem("carrinho", JSON.stringify(carrinho));//salava no localstorage
                 }
             });
@@ -57,6 +61,8 @@ window.onload = () => {
                 carrinho[i].quantidade = carrinho[i].quantidade+1;//aumenta a quantidade
                 document.getElementsByClassName("qnt")[i].innerHTML = `${carrinho[i].quantidade}`;//muda a quantidade exibido na tela
                 document.getElementsByClassName("total")[i].innerHTML = `R$${(carrinho[i].quantidade) * (carrinho[i].valor)}`;//muda o subtotal do item
+                soma += carrinho[i].valor;//diminui subtotal final
+                textoSubtotal.innerHTML = `<p>R$ ${soma}</p>`;//atualiza subtotal final
                 localStorage.setItem("carrinho", JSON.stringify(carrinho));//salava no localstorage
             });
             lixeira[i].addEventListener("click", ()=>{
