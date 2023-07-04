@@ -133,6 +133,9 @@ nav button{
 #quantidade{
     font-size: 16px;
 }
+.branco input{
+    text-align: center;
+}
 .branco label{
     font-size: 10px;
 }

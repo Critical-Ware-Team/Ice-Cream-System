@@ -7,6 +7,7 @@ h1, h2, h3, p{
 body{
     margin: 0;
     width: 100%;
+    background-color: bisque;
 }
 header, footer{
     background-color: white;
@@ -27,7 +28,7 @@ footer{
 main{
     background-color: #584CB0;
     width: 100%;
-    padding: 164px;
+    padding: 164px 0 48px 164px;
     box-sizing: border-box;
 
 }
@@ -43,14 +44,14 @@ nav button{
     font-weight: 600;
     color: black;
 }
-.sacola{
+#sacola{
     display: flex;
     gap: 16px;
     text-align: center;
     margin-top: -120px;
     
 }
-.sacola h2{
+#sacola h2{
     font-weight: 500;
     font-size: 40px;
     margin-top: 15px;
@@ -59,7 +60,7 @@ nav button{
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.subtotal{
+#subtotal{
     position: absolute;
     width: 527px;
     height: 500px;
@@ -67,7 +68,7 @@ nav button{
     top: 72px;
     background: #FFD867;
 }
-.subtotal h2{
+#subtotal h2{
     font-weight: 600;
     font-size: 40px;
     font-family: 'Inter';
@@ -75,7 +76,7 @@ nav button{
     text-align: center;
     color: rgba(60, 60, 60, 1);
 }
-.subtotal button{
+#subtotal button{
     border: none;
     text-align: center;
     font-family: 'Inter';
@@ -161,9 +162,15 @@ table{
     display: flex;
     margin-top: 72px;
     width: 500px;
-    height: 140px;
+    padding: 16px;
+    box-sizing: border-box;
     background: #FFFFFF;
     border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+.box>img{
+    max-height: 120px;
 }
 .esquerda p{
     font-weight: 600;
@@ -179,7 +186,6 @@ table{
     font-size: 24px;
     font-family: 'Inter';
     line-height: 29px;
-    margin-top: 15px;
     display: flex;
     color: #3C3C3C;
 }
@@ -194,18 +200,21 @@ table{
 .lixeira{
     max-height: 30px;
     max-width: 30px;
-    margin-left: 145px;
-    margin-top: 15px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
 }
-.direita p{
+.total{
     font-family: 'Inter';
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    margin-top: 40px;
     align-items: center;
     text-align: right;
     color: #3C3C3C;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
 }
 .sinais{
     display: flex;
@@ -224,6 +233,9 @@ table{
     background: #E8E8E8;
     border: none;
     border-radius: 53.5514px;
-    margin-top: 15px;
 }
-
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

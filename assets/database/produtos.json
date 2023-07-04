@@ -571,7 +571,7 @@
             "nome": "Sorvete de Céu Azul",
             "codigo": 300,
             "valor": 3.75,
-            "qnt_estoque": 100,
+            "quantidade": 100,
             "categorias": [
                 "sorvete",
                 "sabor",
@@ -617,7 +617,7 @@
             "nome": "Sorvete de Flocos",
             "codigo": 200,
             "valor": 4.50,
-            "qnt_estoque": 150,
+            "quantidade": 150,
             "categorias": [
                 "sorvete",
                 "chocolate",
@@ -664,7 +664,7 @@
             "nome": "Sorvete de Marta Rocha",
             "codigo": 400,
             "valor": 4.50,
-            "qnt_estoque": 80,
+            "quantidade": 80,
             "categorias": [
                 "sorvete",
                 "sabor",
@@ -711,7 +711,7 @@
             "nome": "Sorvete Arco-Íris",
             "codigo": 500,
             "valor": 3.80,
-            "qnt_estoque": 150,
+            "quantidade": 150,
             "categorias": [
                 "sorvete",
                 "sabor",
@@ -758,7 +758,7 @@
             "nome": "Sorvete de Iogurte com Amarena",
             "codigo": 600,
             "valor": 4.50,
-            "qnt_estoque": 120,
+            "quantidade": 120,
             "categorias": [
                 "sorvete",
                 "iogurte",
@@ -804,7 +804,7 @@
             "nome": "Sorvete de Abacaxi ao Vinho",
             "codigo": 700,
             "valor": 5.50,
-            "qnt_estoque": 80,
+            "quantidade": 80,
             "categorias": [
                 "sorvete",
                 "fruta",
@@ -850,7 +850,7 @@
             "nome": "Sorvete de Frutas Tropicais",
             "codigo": 800,
             "valor": 4.00,
-            "qnt_estoque": 150,
+            "quantidade": 150,
             "categorias": [
                 "sorvete",
                 "fruta",
@@ -897,7 +897,7 @@
             "nome": "Sorvete de Cappuccino",
             "codigo": 900,
             "valor": 3.50,
-            "qnt_estoque": 120,
+            "quantidade": 120,
             "categorias": [
                 "sorvete",
                 "café",
@@ -944,7 +944,7 @@
             "nome": "Morena de Coco",
             "codigo": 950,
             "valor": 3.00,
-            "qnt_estoque": 80,
+            "quantidade": 80,
             "categorias": [
                 "sobremesa",
                 "coco",
@@ -992,7 +992,7 @@
             "nome": "Sorvete de Açaí com Leite Condensado",
             "codigo": 520,
             "valor": 4.50,
-            "qnt_estoque": 120,
+            "quantidade": 120,
             "categorias": [
                 "sorvete",
                 "açaí",
@@ -1040,7 +1040,7 @@
             "nome": "Itu de Milho Verde",
             "codigo": 800,
             "valor": 4.50,
-            "qnt_estoque": 60,
+            "quantidade": 60,
             "categorias": [
                 "picolé",
                 "milho verde",
@@ -1087,7 +1087,7 @@
             "nome": "Copão de Chiclete",
             "codigo": 900,
             "valor": 7.00,
-            "qnt_estoque": 40,
+            "quantidade": 40,
             "categorias": [
                 "sorvete",
                 "copão",

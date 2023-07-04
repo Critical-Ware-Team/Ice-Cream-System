@@ -85,7 +85,6 @@ window.onload = () => {
                             return jsonProdutos.produtos[i].categorias.includes(categoria);
                         });
                     });
-                    console.log(similaresArray);
                     let nRandom = [];
                     if(similaresArray.length<5){
                         for(let j=0; j<(5-similaresArray.length); j++){
@@ -101,7 +100,6 @@ window.onload = () => {
                                 }
                             }while(control == 1);
                         }
-                        console.log(nRandom);
                         similares.innerHTML='';
                         for(let j=0; j<similaresArray.length; j++){
                             similares.innerHTML += `
@@ -132,7 +130,6 @@ window.onload = () => {
                                 }
                             }while(control == 1);
                         }
-                        console.log(nRandom);
                         similares.innerHTML='';
                         for(let j=0; j<5; j++){
                             similares.innerHTML += `
@@ -152,14 +149,14 @@ window.onload = () => {
                     if(localStorage.hasOwnProperty("carrinho")){
                         carrinho = JSON.parse(localStorage.getItem("carrinho"));
                     }
-                    const buyBtn = document.getElementById("card-comprar");
+                    const buyBtn = document.getElementsByClassName("cor")[0];
                     buyBtn.addEventListener("click", ()=>{
                         if(carrinho.some((e)=>jsonProdutos.produtos[i]==e)){
                             //nada
                         }
                         else{
                             carrinho.push(jsonProdutos.produtos[i]);
-                            carrinho[carrinho.length-1].quantidade = 1;
+                            carrinho[carrinho.length-1].quantidade = document.getElementById("quantidade").value;
                             console.log(carrinho);
                             localStorage.setItem("carrinho", JSON.stringify(carrinho));
                         }

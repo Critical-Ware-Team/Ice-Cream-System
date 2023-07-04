@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produto</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <img src="assets/images/logo-sorveteria.png" alt="logo-sorveteria">
@@ -15,134 +17,36 @@
             <button class="nav-btn">Carrinho</button>
         </nav>
     </header>
-    <main>
-        <div class="sacola">
-            <img src="Vectorsacola.svg" alt="">
+    <main id="main">
+        <div id="sacola">
+            <img src="assets/images/Vectorsacola.svg" alt="">
             <h2>Sua Sacola</h2>
-            <div class="subtotal">
+            <div id="subtotal">
                 <h2>Subtotal</h2>
-                <button>APLICAR CUPOM</button>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Picolé de Manga</td>
-                            <td>5x</td>
-                            <td>R$7,25</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Picolé de Manga</td>
-                            <td>5x</td>
-                            <td>R$7,25</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Picolé de Manga</td>
-                            <td>5x</td>
-                            <td>R$7,25</td>
-                        </tr>
-                    </tbody>
-                </table>
-            <div class="table_baixo">
-              <table>
-                    <tbody>
-                        <tr>
-                            <td>Total:R$21,75</td>
-                            <td>Cupom: Primeira Compra</td>
-                            <td class="preco">R$18,70</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div> 
             </div>
         </div>
         <div class="pagamento">
             <h1>Forma de Pagamento</h1>
-        <div class="div_pagamento">
-            <div class="formas_pagamento">
-            <p>Pix</p>
-            <img src="Vectorpix.png" id="pix">
-            </div>
-            <div class="formas_pagamento">
-                <p>Dinheiro</p>
-                <img src="Vectordinheiro.png" alt="">
-            </div>
-            <div class="formas_pagamento">
-                <p>Débito</p>
-                <img src="Vectordebito.png" alt="">
-            </div>
-            <div class="formas_pagamento">
-                <p>Crédito</p>
-                <img src="Vectorcredito.png" alt="">
-            </div>
-        </div>
-        </div>
-        <div class="box">
-            <img src="Group 57manga.png" class="foto_produto">
-            <div class="esquerda">
-                <p>R$1,45 por unidade</p>
-                <h3>Picolé de manga</h3>
-                <button>
-                    -
-                </button>
-                <button>
-                    5
-                </button>
-                <button>
-                    +
-                </button>
-            </div>
-            <div class="direita">
-                <img src="Frame 149lixeira.png" class="lixeira">
-                <p>R$7,25</p>
+            <div class="div_pagamento">
+                <div class="formas_pagamento">
+                    <p>Pix</p>
+                    <img src="assets/images/Vectorpix.png" id="pix">
+                </div>
+                <div class="formas_pagamento">
+                    <p>Dinheiro</p>
+                    <img src="assets/images/Vectordinheiro.png" alt="">
+                </div>
+                <div class="formas_pagamento">
+                    <p>Débito</p>
+                    <img src="assets/images/Vectordebito.png" alt="">
+                </div>
+                <div class="formas_pagamento">
+                    <p>Crédito</p>
+                    <img src="assets/images/Vectorcredito.png" alt="">
+                </div>
             </div>
         </div>
-        <div class="box">
-            <img src="Group 57manga.png" class="foto_produto">
-            <div class="esquerda">
-                <p>R$1,45 por unidade</p>
-                <h3>Picolé de manga</h3>
-                <button>
-                    -
-                </button>
-                <button>
-                    5
-                </button>
-                <button>
-                    +
-                </button>
-            </div>
-            <div class="direita">
-                <img src="Frame 149lixeira.png" class="lixeira">
-                <p>R$7,25</p>
-            </div>
-        </div>
-        <div class="box">
-            <img src="Group 57manga.png" class="foto_produto">
-            <div class="esquerda">
-                <p>R$1,45 por unidade</p>
-                <h3>Picolé de manga</h3>
-                <button>
-                    -
-                </button>
-                <button>
-                    5
-                </button>
-                <button>
-                    +
-                </button>
-            </div>
-            <div class="direita">
-                <img src="Frame 149lixeira.png" class="lixeira">
-                <p>R$7,25</p>
-            </div>
-        </div>
+        <!-- Aqui abaixo serão renderizados os produtos via JS -->
     </main>
     <footer>
         <p>&copySorvetes Flor d' Oeste 2023</p>
@@ -152,5 +56,7 @@
             <img src="assets/images/IG-icon.svg" alt="instagram-icon">
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
