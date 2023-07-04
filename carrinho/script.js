@@ -40,24 +40,28 @@ window.onload = () => {
         const lixeira = document.getElementsByClassName("lixeira");
         for(let i=0; i<carrinho.length; i++){
             btnMinus[i].addEventListener("click", ()=>{
-                carrinho[i].quantidade = parseFloat(carrinho[i].quantidade)-1;
+                carrinho[i].quantidade = carrinho[i].quantidade-1;
                 if(carrinho[i].quantidade == 0){
-                    carrinho.splice(i, 1);
-                    document.getElementsByClassName("box")[i].remove();
-                    localStorage.setItem("carrinho", JSON.stringify(carrinho));
-                    location.reload();
+                    carrinho.splice(i, 1);//remove o produto do array
+                    localStorage.setItem("carrinho", JSON.stringify(carrinho));//salava no localstorage
+                    location.reload();//regarrega a página para atulizar os produtos exibidos
                 }
-                document.getElementsByClassName("qnt")[i].innerHTML = `${carrinho[i].quantidade}`;
+                else{
+                    document.getElementsByClassName("qnt")[i].innerHTML = `${carrinho[i].quantidade}`;
+                    document.getElementsByClassName("total")[i].innerHTML = `R$${(carrinho[i].quantidade) * (carrinho[i].valor)}`;
+                    localStorage.setItem("carrinho", JSON.stringify(carrinho));//salava no localstorage
+                }
             });
             btnPlus[i].addEventListener("click", ()=>{
-                carrinho[i].quantidade = parseFloat(carrinho[i].quantidade)+1;
-                document.getElementsByClassName("qnt")[i].innerHTML = `${carrinho[i].quantidade}`;
+                carrinho[i].quantidade = carrinho[i].quantidade+1;//aumenta a quantidade
+                document.getElementsByClassName("qnt")[i].innerHTML = `${carrinho[i].quantidade}`;//muda a quantidade exibido na tela
+                document.getElementsByClassName("total")[i].innerHTML = `R$${(carrinho[i].quantidade) * (carrinho[i].valor)}`;//muda o subtotal do item
+                localStorage.setItem("carrinho", JSON.stringify(carrinho));//salava no localstorage
             });
             lixeira[i].addEventListener("click", ()=>{
-                carrinho.splice(i, 1);
-                document.getElementsByClassName("box")[i].remove();
-                localStorage.setItem("carrinho", JSON.stringify(carrinho));
-                location.reload();
+                carrinho.splice(i, 1);//remove o produto do array
+                localStorage.setItem("carrinho", JSON.stringify(carrinho));//salava no localstorage
+                location.reload();//regarrega a página para atulizar os produtos exibidos
             });
         }
     }
