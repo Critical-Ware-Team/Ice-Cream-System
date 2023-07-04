@@ -572,6 +572,7 @@
             "codigo": 300,
             "valor": 3.75,
             "quantidade": 100,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "sabor",
@@ -618,6 +619,7 @@
             "codigo": 200,
             "valor": 4.50,
             "quantidade": 150,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "chocolate",
@@ -665,6 +667,7 @@
             "codigo": 400,
             "valor": 4.50,
             "quantidade": 80,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "sabor",
@@ -712,6 +715,7 @@
             "codigo": 500,
             "valor": 3.80,
             "quantidade": 150,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "sabor",
@@ -759,6 +763,7 @@
             "codigo": 600,
             "valor": 4.50,
             "quantidade": 120,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "iogurte",
@@ -805,6 +810,7 @@
             "codigo": 700,
             "valor": 5.50,
             "quantidade": 80,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "fruta",
@@ -851,6 +857,7 @@
             "codigo": 800,
             "valor": 4.00,
             "quantidade": 150,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "fruta",
@@ -898,6 +905,7 @@
             "codigo": 900,
             "valor": 3.50,
             "quantidade": 120,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "café",
@@ -945,6 +953,7 @@
             "codigo": 950,
             "valor": 3.00,
             "quantidade": 80,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sobremesa",
                 "coco",
@@ -993,6 +1002,7 @@
             "codigo": 520,
             "valor": 4.50,
             "quantidade": 120,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "açaí",
@@ -1041,6 +1051,7 @@
             "codigo": 800,
             "valor": 4.50,
             "quantidade": 60,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "picolé",
                 "milho verde",
@@ -1088,6 +1099,7 @@
             "codigo": 900,
             "valor": 7.00,
             "quantidade": 40,
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "copão",
@@ -1184,7 +1196,7 @@
             "codigo": 800,
             "valor": 3.50,
             "quantidade": 80,
-            "urlImg": "../assets/images/produtos/skimo_coco.png",
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "skimo",
                 "coco",
@@ -1232,7 +1244,7 @@
             "codigo": 900,
             "valor": 4.50,
             "quantidade": 50,
-            "urlImg": "../assets/images/produtos/picole_brigadeiro.png",
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "picolé",
                 "chocolate",
@@ -1280,7 +1292,7 @@
             "codigo": 1000,
             "valor": 59.90,
             "quantidade": 10,
-            "urlImg": "../assets/images/produtos/balde_cookie.png",
+            "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
             "categorias": [
                 "sorvete",
                 "cookie",

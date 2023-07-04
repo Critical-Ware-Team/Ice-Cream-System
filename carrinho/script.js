@@ -1,4 +1,5 @@
 window.onload = () => {
+    //naveção entre páginas pelo header
     document.getElementsByClassName("nav-btn")[0].addEventListener("click", () => {
         window.location.href = "../cardapio/";
     });
@@ -6,17 +7,17 @@ window.onload = () => {
         window.location.href = "../carrinho/";
     });
     let carrinho = [];
-    if (localStorage.hasOwnProperty("carrinho")) {
-        carrinho = JSON.parse(localStorage.getItem("carrinho"));
+    if (localStorage.hasOwnProperty("carrinho")) {//ve se tem produto no localStorage
+        carrinho = JSON.parse(localStorage.getItem("carrinho"));//se tiver, pega ele, converte de string pra objeto e joga no vetor carrinho
     }
     const main = document.getElementById("main");
     const subtotal = document.getElementById("subtotal");
     let soma = 0;
-    if(carrinho.length == 0){
+    if(carrinho.length == 0){//se o carrinho tá vazio, fala que tá vazio
         main.innerHTML += `<h2>Carrinho Vazio</h2>`;
     }
     else{
-        carrinho.forEach(produto => {
+        carrinho.forEach(produto => {//laço para colocar todos os produtos do carrinho na tela
             main.innerHTML += `
                 <div class="box">
                     <img src="${produto.urlImg}" class="${produto.nome}">
@@ -68,23 +69,23 @@ window.onload = () => {
     console.log(carrinho);
 }
 function exibirPix() {
-    let modalPix = document.getElementById("modal-pix");
-    modalPix.classList.add("flexer");
-    modalPix.showModal();
-  }
-  
-  function fecharPix() {
-    let modalPix = document.getElementById("modal-pix");
-    modalPix.classList.remove("flexer");
-    modalPix.close();
-  }
-  
-  function exibirCartao() {
-    let modalCartao = document.getElementById("modal-cartao");
-    modalCartao.showModal();
-  }
-  
-  function fecharCartao() {
-    let modalCartao = document.getElementById("modal-cartao");
-    modalCartao.close();
-  }
+    let modalPix = document.getElementById("modal-pix");//pega o modal
+    modalPix.classList.add("flexer");//deixa o modal flex
+    modalPix.showModal();//abre o modal
+}
+
+function fecharPix() {
+    let modalPix = document.getElementById("modal-pix");//pega o modal
+    modalPix.classList.remove("flexer");//tira flex do modal
+    modalPix.close();//fecha o modal
+}
+
+function exibirCartao() {
+    let modalCartao = document.getElementById("modal-cartao");//pega modal
+    modalCartao.showModal();//abre modal
+}
+
+function fecharCartao() {
+    let modalCartao = document.getElementById("modal-cartao");//pega modal
+    modalCartao.close();//fecha modal
+}
