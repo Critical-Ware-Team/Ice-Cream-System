@@ -567,5 +567,651 @@
             },
             "descricao": "Picolé refrescante de amora feito com amoras frescas, água, açúcar e um toque de limão. Desfrute de um sabor intenso e natural de amora em cada mordida."
         }
+        {
+            "nome": "Sorvete de Céu Azul",
+            "codigo": 300,
+            "valor": 3.75,
+            "qnt_estoque": 100,
+            "categorias": ["sorvete", "sabor", "azul"],
+            "consumo_imediato": true,
+            "ingredientes": ["leite", "açúcar", "aroma de algodão doce", "corante azul"],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amendoa": 0,
+                "avela": 0,
+                "castanha_caju": 0,
+                "castanha_para": 0,
+                "macadamia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 120.00,
+                "carboidratos": 28.50,
+                "proteinas": 1.00,
+                "gorduras_totais": 2.00,
+                "gorduras_saturadas": 1.50,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 0.00,
+                "sódio": 25.00
+            },
+            "descricao": "Sorvete de céu azul com sabor doce e marcante de algodão doce. Feito com leite, açúcar, aroma de algodão doce e corante azul. Uma explosão de sabor e cor para alegrar o seu dia!"
+        }
+        {
+        "nome": "Sorvete de Flocos",
+        "codigo": 200,
+        "valor": 4.50,
+        "qnt_estoque": 150,
+        "categorias": ["sorvete", "chocolate", "flocos"],
+        "consumo_imediato": true,
+        "ingredientes": ["leite", "creme de leite", "açúcar", "cacau em pó", "flocos de chocolate"],
+        "alergênicos": {
+            "trigo": 0,
+            "cevada": 0,
+            "aveia": 0,
+            "ovos": 0,
+            "amendoim": 0,
+            "soja": 0,
+            "leite": 1,
+            "amendoa": 0,
+            "avela": 0,
+            "castanha_caju": 0,
+            "castanha_para": 0,
+            "macadamia": 0,
+            "noz": 0,
+            "pistache": 0,
+            "pinoli": 0
+        },
+        "nutricional": {
+            "valor_energetico": 180.80,
+            "carboidratos": 24.50,
+            "proteinas": 3.20,
+            "gorduras_totais": 8.60,
+            "gorduras_saturadas": 5.40,
+            "gorduras_trans": 0.00,
+            "fibra_alimentar": 1.00,
+            "sódio": 45.20
+        },
+        "descricao": "Sorvete cremoso sabor flocos, feito com leite, creme de leite, açúcar, cacau em pó e deliciosos flocos de chocolate. Uma opção perfeita para os amantes de chocolate!"
+        }
+        {
+        "nome": "Sorvete de Marta Rocha",
+        "codigo": 400,
+        "valor": 4.50,
+        "qnt_estoque": 80,
+        "categorias": ["sorvete", "sabor", "marta rocha"],
+        "consumo_imediato": true,
+        "ingredientes": ["leite condensado", "creme de leite", "chocolate em pó", "castanha de caju", "merengue"],
+        "alergênicos": {
+            "trigo": 0,
+            "cevada": 0,
+            "aveia": 0,
+            "ovos": 0,
+            "amendoim": 0,
+            "soja": 0,
+            "leite": 1,
+            "amendoa": 0,
+            "avela": 0,
+            "castanha_caju": 1,
+            "castanha_para": 0,
+            "macadamia": 0,
+            "noz": 0,
+            "pistache": 0,
+            "pinoli": 0
+        },
+        "nutricional": {
+            "valor_energetico": 180.50,
+            "carboidratos": 22.80,
+            "proteinas": 3.60,
+            "gorduras_totais": 9.20,
+            "gorduras_saturadas": 5.30,
+            "gorduras_trans": 0.00,
+            "fibra_alimentar": 1.40,
+            "sódio": 55.00
+        },
+        "descricao": "Sorvete inspirado na famosa torta Marta Rocha. Feito com leite condensado, creme de leite, chocolate em pó, castanha de caju e merengue. Um sabor irresistível que remete ao doce clássico. Delicie-se com esse sorvete incrível!"
+    }
+    {
+            "nome": "Sorvete Arco-Íris",
+            "codigo": 500,
+            "valor": 3.80,
+            "qnt_estoque": 150,
+            "categorias": ["sorvete", "sabor", "arco-íris"],
+            "consumo_imediato": true,
+            "ingredientes": ["leite", "creme de leite", "açúcar", "corantes alimentícios", "confeitos coloridos"],
+            "alergênicos": {
+                "trigo": 0,
+                "cevada": 0,
+                "aveia": 0,
+                "ovos": 0,
+                "amendoim": 0,
+                "soja": 0,
+                "leite": 1,
+                "amendoa": 0,
+                "avela": 0,
+                "castanha_caju": 0,
+                "castanha_para": 0,
+                "macadamia": 0,
+                "noz": 0,
+                "pistache": 0,
+                "pinoli": 0
+            },
+            "nutricional": {
+                "valor_energetico": 120.20,
+                "carboidratos": 25.60,
+                "proteinas": 2.10,
+                "gorduras_totais": 3.40,
+                "gorduras_saturadas": 2.10,
+                "gorduras_trans": 0.00,
+                "fibra_alimentar": 0.50,
+                "sódio": 35.00
+            },
+            "descricao": "Um delicioso sorvete de arco-íris com camadas coloridas. Feito com leite, creme de leite, açúcar, corantes alimentícios e confeitos coloridos. Alegre e refrescante, esse sorvete é perfeito para trazer diversão aos seus dias de verão!"
+    }
+    {
+        "nome": "Sorvete de Iogurte com Amarena",
+        "codigo": 600,
+        "valor": 4.50,
+        "qnt_estoque": 120,
+        "categorias": ["sorvete", "iogurte", "fruta", "amarena"],
+        "consumo_imediato": true,
+        "ingredientes": ["iogurte natural", "açúcar", "amarenas em calda"],
+        "alergênicos": {
+            "trigo": 0,
+            "cevada": 0,
+            "aveia": 0,
+            "ovos": 0,
+            "amendoim": 0,
+            "soja": 0,
+            "leite": 1,
+            "amendoa": 0,
+            "avela": 0,
+            "castanha_caju": 0,
+            "castanha_para": 0,
+            "macadamia": 0,
+            "noz": 0,
+            "pistache": 0,
+            "pinoli": 0
+        },
+        "nutricional": {
+            "valor_energetico": 150.80,
+            "carboidratos": 28.40,
+            "proteinas": 2.50,
+            "gorduras_totais": 1.80,
+            "gorduras_saturadas": 0.90,
+            "gorduras_trans": 0.00,
+            "fibra_alimentar": 0.80,
+            "sódio": 25.00
+        },
+        "descricao": "Delicioso sorvete de iogurte com um toque de doçura das amarenas em calda. Feito com iogurte natural, açúcar e amarenas de alta qualidade. Desfrute da combinação refrescante e saborosa deste sorvete único!"
+    }
+    {
+        "nome": "Sorvete de Abacaxi ao Vinho",
+        "codigo": 700,
+        "valor": 5.50,
+        "qnt_estoque": 80,
+        "categorias": ["sorvete", "fruta", "abacaxi", "vinho"],
+        "consumo_imediato": true,
+        "ingredientes": ["abacaxi", "açúcar", "vinho branco"],
+        "alergênicos": {
+            "trigo": 0,
+            "cevada": 0,
+            "aveia": 0,
+            "ovos": 0,
+            "amendoim": 0,
+            "soja": 0,
+            "leite": 0,
+            "amendoa": 0,
+            "avela": 0,
+            "castanha_caju": 0,
+            "castanha_para": 0,
+            "macadamia": 0,
+            "noz": 0,
+            "pistache": 0,
+            "pinoli": 0
+        },
+        "nutricional": {
+            "valor_energetico": 120.50,
+            "carboidratos": 26.80,
+            "proteinas": 1.20,
+            "gorduras_totais": 0.50,
+            "gorduras_saturadas": 0.00,
+            "gorduras_trans": 0.00,
+            "fibra_alimentar": 1.50,
+            "sódio": 2.40
+        },
+        "descricao": "Uma combinação refrescante de abacaxi tropical e vinho branco suave. Esse sorvete é feito com abacaxis frescos, açúcar e um toque de vinho para dar um sabor único e sofisticado. Delicie-se com essa mistura perfeita de doçura e acidez!"
+    }
+    {
+    "nome": "Sorvete de Frutas Tropicais",
+    "codigo": 800,
+    "valor": 4.00,
+    "qnt_estoque": 150,
+    "categorias": ["sorvete", "fruta", "tropical"],
+    "consumo_imediato": true,
+    "ingredientes": ["manga", "abacaxi", "maracujá", "açúcar", "água"],
+    "alergênicos": {
+        "trigo": 0,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 0,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 95.20,
+        "carboidratos": 23.60,
+        "proteinas": 0.80,
+        "gorduras_totais": 0.30,
+        "gorduras_saturadas": 0.00,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 2.10,
+        "sódio": 3.80
+    },
+    "descricao": "Uma explosão de sabores tropicais! Esse sorvete combina a doçura da manga, a acidez do abacaxi e o sabor exótico do maracujá. Feito com frutas frescas e açúcar, é perfeito para refrescar nos dias quentes e se transportar para um paraíso tropical!"
+    }
+
+    {
+    "nome": "Sorvete de Cappuccino",
+    "codigo": 900,
+    "valor": 3.50,
+    "qnt_estoque": 120,
+    "categorias": ["sorvete", "café", "cremoso"],
+    "consumo_imediato": true,
+    "ingredientes": ["café", "leite", "creme de leite", "açúcar", "cacau em pó"],
+    "alergênicos": {
+        "trigo": 0,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 1,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 120.80,
+        "carboidratos": 18.50,
+        "proteinas": 2.20,
+        "gorduras_totais": 4.80,
+        "gorduras_saturadas": 2.90,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 0.70,
+        "sódio": 25.10
+    },
+    "descricao": "Sorvete cremoso de cappuccino feito com café, leite, creme de leite, açúcar e um toque de cacau em pó. Desfrute de todo o sabor e aroma de um delicioso cappuccino gelado em forma de sorvete!"
+    }
+
+    {
+    "nome": "Morena de Coco",
+    "codigo": 950,
+    "valor": 3.00,
+    "qnt_estoque": 80,
+    "categorias": ["sobremesa", "coco", "chocolate", "cremoso"],
+    "consumo_imediato": true,
+    "ingredientes": ["leite de coco", "leite condensado", "chocolate meio amargo", "coco ralado", "açúcar"],
+    "alergênicos": {
+        "trigo": 0,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 1,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 180.60,
+        "carboidratos": 28.40,
+        "proteinas": 2.80,
+        "gorduras_totais": 7.60,
+        "gorduras_saturadas": 5.20,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 1.10,
+        "sódio": 12.90
+    },
+    "descricao": "Morena de coco é uma deliciosa sobremesa feita com uma combinação de chocolate meio amargo, coco ralado e um toque de leite de coco. A cremosidade e o sabor marcante do coco tornam essa sobremesa irresistível. Perfeito para os amantes de chocolate e coco!"
+    }
+
+    {
+    "nome": "Sorvete de Açaí com Leite Condensado",
+    "codigo": 520,
+    "valor": 4.50,
+    "qnt_estoque": 120,
+    "categorias": ["sorvete", "açaí", "cremoso", "fruta"],
+    "consumo_imediato": true,
+    "ingredientes": ["açaí", "leite condensado", "leite em pó", "açúcar", "creme de leite"],
+    "alergênicos": {
+        "trigo": 0,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 1,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 160.80,
+        "carboidratos": 30.50,
+        "proteinas": 3.20,
+        "gorduras_totais": 4.80,
+        "gorduras_saturadas": 2.90,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 2.10,
+        "sódio": 14.60
+    },
+    "descricao": "O sorvete de açaí com leite condensado é uma combinação deliciosa e cremosa. Feito com açaí natural, leite condensado, leite em pó e creme de leite, esse sorvete tem um sabor irresistível e uma textura suave. O contraste do açaí com o doce do leite condensado é simplesmente incrível!"
+    }
+
+    {
+        "nome": "Itu de Milho Verde",
+        "codigo": 800,
+        "valor": 4.50,
+        "qnt_estoque": 60,
+        "categorias": ["picolé", "milho verde", "cremoso", "verão"],
+        "consumo_imediato": true,
+        "ingredientes": ["milho verde", "leite condensado", "açúcar", "leite em pó"],
+        "alergênicos": {
+            "trigo": 0,
+            "cevada": 0,
+            "aveia": 0,
+            "ovos": 0,
+            "amendoim": 0,
+            "soja": 0,
+            "leite": 1,
+            "amendoa": 0,
+            "avela": 0,
+            "castanha_caju": 0,
+            "castanha_para": 0,
+            "macadamia": 0,
+            "noz": 0,
+            "pistache": 0,
+            "pinoli": 0
+        },
+        "nutricional": {
+            "valor_energetico": 125.80,
+            "carboidratos": 22.10,
+            "proteinas": 2.30,
+            "gorduras_totais": 3.40,
+            "gorduras_saturadas": 2.10,
+            "gorduras_trans": 0.00,
+            "fibra_alimentar": 1.80,
+            "sódio": 15.60
+        },
+        "descricao": "O Itu de Milho Verde é um delicioso picolé redondo feito com uma cremosa mistura de milho verde, leite condensado, açúcar e leite em pó. A combinação dos sabores do milho verde com o doce do leite condensado e a textura suave desse picolé proporcionam uma experiência única e refrescante. Perfeito para se deliciar em dias quentes e desfrutar do sabor irresistível do milho verde!"
+    }
+
+    {
+    "nome": "Copão de Chiclete",
+    "codigo": 900,
+    "valor": 7.00,
+    "qnt_estoque": 40,
+    "categorias": ["sorvete", "copão", "chiclete", "colorido"],
+    "consumo_imediato": true,
+    "ingredientes": ["sorvete de chiclete", "chicletes coloridos", "cobertura de chocolate", "granulado colorido"],
+    "alergênicos": {
+        "trigo": 0,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 1,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 180.50,
+        "carboidratos": 35.20,
+        "proteinas": 2.40,
+        "gorduras_totais": 4.60,
+        "gorduras_saturadas": 3.20,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 1.00,
+        "sódio": 45.80
+    },
+    "descricao": "O Copão de Chiclete é uma deliciosa sobremesa que combina sorvete de chiclete com pedaços de chicletes coloridos, cobertura de chocolate e granulado colorido. É uma explosão de sabores e cores em um único copão! A cada colherada, você experimentará a doçura do sorvete de chiclete, a textura dos chicletes mastigáveis e a crocância do granulado. Uma opção divertida e saborosa para se deliciar e se refrescar em qualquer ocasião!"
+    }
+
+    {
+    "nome": "Picolé de Abacaxi com Hortelã",
+    "codigo": 600,
+    "valor": 3.50,
+    "quantidade": 80,
+    "urlImg": "../assets/images/produtos/picoleabacaxi.png",
+    "categorias": [
+        "picolé",
+        "fruta",
+        "abacaxi",
+        "hortelã",
+        "refrescante"
+    ],
+    "consumo_imediato": true,
+    "ingredientes": [
+        "abacaxi fresco",
+        "hortelã",
+        "água",
+        "açúcar"
+    ],
+    "alergenicos": {
+        "trigo": 0,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 0,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 70.80,
+        "carboidratos": 18.50,
+        "proteinas": 0.60,
+        "gorduras_totais": 0.10,
+        "gorduras_saturadas": 0.00,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 1.20,
+        "sodio": 0.90
+    },
+    "descricao": "O Picolé de Abacaxi com Hortelã é uma opção refrescante e saborosa para os dias quentes. Feito com abacaxi fresco, hortelã, água e açúcar, cada mordida proporciona uma explosão de sabores cítricos e refrescantes. Desfrute desse picolé delicioso e revigorante, perfeito para se refrescar em qualquer ocasião!"
+    }
+
+    {
+    "nome": "Skimó de Coco",
+    "codigo": 800,
+    "valor": 3.50,
+    "quantidade": 80,
+    "urlImg": "../assets/images/produtos/skimo_coco.png",
+    "categorias": [
+        "skimo",
+        "coco",
+        "refrescante",
+        "tropical"
+    ],
+    "consumo_imediato": true,
+    "ingredientes": [
+        "água de coco",
+        "leite em pó desnatado",
+        "açúcar",
+        "extrato de coco"
+    ],
+    "alergenicos": {
+        "trigo": 0,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 1,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 85.60,
+        "carboidratos": 15.80,
+        "proteinas": 4.20,
+        "gorduras_totais": 1.50,
+        "gorduras_saturadas": 0.90,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 0.00,
+        "sodio": 32.90
+    },
+    "descricao": "O Skimó de Coco é uma opção refrescante e tropical para os dias quentes. Feito com água de coco, leite em pó desnatado, açúcar e extrato de coco, esse picolé oferece um sabor delicioso e suave de coco. Desfrute de uma explosão de frescor e sabores tropicais a cada mordida. Uma escolha perfeita para se refrescar e aproveitar momentos de puro prazer!"
+    }
+
+    {
+    "nome": "Picolé de Brigadeiro",
+    "codigo": 900,
+    "valor": 4.50,
+    "quantidade": 50,
+    "urlImg": "../assets/images/produtos/picole_brigadeiro.png",
+    "categorias": [
+        "picolé",
+        "chocolate",
+        "doce",
+        "brigadeiro"
+    ],
+    "consumo_imediato": true,
+    "ingredientes": [
+        "leite condensado",
+        "chocolate em pó",
+        "manteiga",
+        "granulado de chocolate"
+    ],
+    "alergenicos": {
+        "trigo": 0,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 1,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 120.50,
+        "carboidratos": 22.30,
+        "proteinas": 2.50,
+        "gorduras_totais": 3.80,
+        "gorduras_saturadas": 2.10,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 0.70,
+        "sodio": 30.80
+    },
+    "descricao": "O Picolé de Brigadeiro é perfeito para os amantes de chocolate e brigadeiro. Feito com leite condensado, chocolate em pó, manteiga e granulado de chocolate, ele traz todo o sabor e cremosidade do brigadeiro em forma de picolé. Desfrute desse delicioso doce gelado e sinta-se como se estivesse saboreando um brigadeiro de colher. Uma verdadeira tentação para os chocólatras de plantão!"
+    }
+
+    {
+    "nome": "Balde de Sorvete de Cookie",
+    "codigo": 1000,
+    "valor": 59.90,
+    "quantidade": 10,
+    "urlImg": "../assets/images/produtos/balde_cookie.png",
+    "categorias": [
+        "sorvete",
+        "cookie",
+        "doce"
+    ],
+    "consumo_imediato": false,
+    "ingredientes": [
+        "sorvete de baunilha",
+        "cookies de chocolate",
+        "cobertura de chocolate"
+    ],
+    "alergenicos": {
+        "trigo": 1,
+        "cevada": 0,
+        "aveia": 0,
+        "ovos": 0,
+        "amendoim": 0,
+        "soja": 0,
+        "leite": 1,
+        "amendoa": 0,
+        "avela": 0,
+        "castanha_caju": 0,
+        "castanha_para": 0,
+        "macadamia": 0,
+        "noz": 0,
+        "pistache": 0,
+        "pinoli": 0
+    },
+    "nutricional": {
+        "valor_energetico": 300.90,
+        "carboidratos": 40.20,
+        "proteinas": 4.80,
+        "gorduras_totais": 13.50,
+        "gorduras_saturadas": 7.90,
+        "gorduras_trans": 0.00,
+        "fibra_alimentar": 1.80,
+        "sodio": 75.20
+    },
+    "descricao": "O Balde de Sorvete de Cookie é perfeito para compartilhar com a família e amigos. Contém 10 litros de sorvete de baunilha cremoso, pedaços generosos de cookies de chocolate e uma deliciosa cobertura de chocolate. Desfrute dessa irresistível combinação de sabores em cada colherada. Ideal para festas, eventos ou simplesmente para se deliciar em casa. Aproveite esse balde de sorvete e deixe seus momentos ainda mais doces!"
+    }
+
+
     ]
 }
