@@ -330,7 +330,7 @@
         },
         {
             "nome": "Picolé de Coco",
-            "codigo": 108,
+            "codigo": 107,
             "valor": 3.50,
             "quantidade": 150,
             "urlImg": "../assets/images/produtos/picolecoco.png",
@@ -377,7 +377,7 @@
         },
         {
             "nome": "Picolé de Maracujá",
-            "codigo": 110,
+            "codigo": 108,
             "valor": 2.50,
             "quantidade": 100,
             "urlImg": "../assets/images/produtos/picolemaracuja.png",
@@ -425,7 +425,7 @@
         },
         {
             "nome": "Picolé de Abacate",
-            "codigo": 150,
+            "codigo": 109,
             "valor": 3.50,
             "quantidade": 80,
             "urlImg": "../assets/images/produtos/picoleabacate.png",
@@ -473,7 +473,7 @@
         },
         {
             "nome": "Picolé de Abacaxi",
-            "codigo": 200,
+            "codigo": 110,
             "valor": 2.50,
             "quantidade": 150,
             "urlImg": "../assets/images/produtos/picoleabacaxi.png",
@@ -521,7 +521,7 @@
         },
         {
             "nome": "Picolé de Amora",
-            "codigo": 300,
+            "codigo": 111,
             "valor": 3.50,
             "quantidade": 100,
             "urlImg": "../assets/images/produtos/picoleamora.png",
@@ -569,7 +569,7 @@
         },
         {
             "nome": "Sorvete de Céu Azul",
-            "codigo": 300,
+            "codigo": 112,
             "valor": 3.75,
             "quantidade": 100,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -616,7 +616,7 @@
         },
         {
             "nome": "Sorvete de Flocos",
-            "codigo": 200,
+            "codigo": 113,
             "valor": 4.50,
             "quantidade": 150,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -664,7 +664,7 @@
         },
         {
             "nome": "Sorvete de Marta Rocha",
-            "codigo": 400,
+            "codigo": 114,
             "valor": 4.50,
             "quantidade": 80,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -712,7 +712,7 @@
         },
         {
             "nome": "Sorvete Arco-Íris",
-            "codigo": 500,
+            "codigo": 115,
             "valor": 3.80,
             "quantidade": 150,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -760,7 +760,7 @@
         },
         {
             "nome": "Sorvete de Iogurte com Amarena",
-            "codigo": 600,
+            "codigo": 116,
             "valor": 4.50,
             "quantidade": 120,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -807,7 +807,7 @@
         },
         {
             "nome": "Sorvete de Abacaxi ao Vinho",
-            "codigo": 700,
+            "codigo": 117,
             "valor": 5.50,
             "quantidade": 80,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -854,7 +854,7 @@
         },
         {
             "nome": "Sorvete de Frutas Tropicais",
-            "codigo": 800,
+            "codigo": 118,
             "valor": 4.00,
             "quantidade": 150,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -902,7 +902,7 @@
         },
         {
             "nome": "Sorvete de Cappuccino",
-            "codigo": 900,
+            "codigo": 119,
             "valor": 3.50,
             "quantidade": 120,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -950,7 +950,7 @@
         },
         {
             "nome": "Morena de Coco",
-            "codigo": 950,
+            "codigo": 120,
             "valor": 3.00,
             "quantidade": 80,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -999,7 +999,7 @@
         },
         {
             "nome": "Sorvete de Açaí com Leite Condensado",
-            "codigo": 520,
+            "codigo": 121,
             "valor": 4.50,
             "quantidade": 120,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -1048,7 +1048,7 @@
         },
         {
             "nome": "Itu de Milho Verde",
-            "codigo": 800,
+            "codigo": 122,
             "valor": 4.50,
             "quantidade": 60,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -1096,7 +1096,7 @@
         },
         {
             "nome": "Copão de Chiclete",
-            "codigo": 900,
+            "codigo": 123,
             "valor": 7.00,
             "quantidade": 40,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -1144,7 +1144,7 @@
         },
         {
             "nome": "Picolé de Abacaxi com Hortelã",
-            "codigo": 600,
+            "codigo": 124,
             "valor": 3.50,
             "quantidade": 80,
             "urlImg": "../assets/images/produtos/picoleabacaxi.png",
@@ -1193,7 +1193,7 @@
         },
         {
             "nome": "Skimó de Coco",
-            "codigo": 800,
+            "codigo": 125,
             "valor": 3.50,
             "quantidade": 80,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -1241,7 +1241,7 @@
         },
         {
             "nome": "Picolé de Brigadeiro",
-            "codigo": 900,
+            "codigo": 126,
             "valor": 4.50,
             "quantidade": 50,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",
@@ -1289,7 +1289,7 @@
         },
         {
             "nome": "Balde de Sorvete de Cookie",
-            "codigo": 1000,
+            "codigo": 127,
             "valor": 59.90,
             "quantidade": 10,
             "urlImg": "https://cdn-icons-png.flaticon.com/512/10001/10001486.png",

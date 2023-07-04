@@ -27,11 +27,11 @@ footer{
 main{
     background-color: #584CB0;
     width: 100%;
-    padding: 64px 128px 64px 0;
+    padding: 64px 0 64px 0;
     box-sizing: border-box;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 nav{
     position: relative;
