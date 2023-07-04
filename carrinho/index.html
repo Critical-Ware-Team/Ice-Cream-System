@@ -28,25 +28,49 @@
         <div class="pagamento">
             <h1>Forma de Pagamento</h1>
             <div class="div_pagamento">
-                <div class="formas_pagamento">
+                <div class="formas_pagamento" id="pix" onclick="exibirPix()">
                     <p>Pix</p>
-                    <img src="assets/images/Vectorpix.png" id="pix">
+                    <img src="assets/images/Vectorpix.png" alt="pix">
                 </div>
-                <div class="formas_pagamento">
+                <div class="formas_pagamento" id="dinheiro">
                     <p>Dinheiro</p>
                     <img src="assets/images/Vectordinheiro.png" alt="">
                 </div>
-                <div class="formas_pagamento">
+                <div class="formas_pagamento" id="debito" onclick="exibirCartao()">
                     <p>Débito</p>
                     <img src="assets/images/Vectordebito.png" alt="">
                 </div>
-                <div class="formas_pagamento">
+                <div class="formas_pagamento" id="credito" onclick="exibirCartao()">
                     <p>Crédito</p>
                     <img src="assets/images/Vectorcredito.png" alt="">
                 </div>
             </div>
         </div>
         <!-- Aqui abaixo serão renderizados os produtos via JS -->
+
+        <dialog id="modal-pix">
+            <img src="assets/images/pix-logo.png" alt="" id="logo-pix">
+            <img src="assets/images/Carrinho-Pix.png" alt="" id="qr-code">
+            <button id="botao-copia">Copiar Código Pix</button>
+            <p id="valor-pix">Valor: R$ 43,95</p>
+            <p>Utilize o aplicativo do seu banco para escanear o QR Code</p>
+            <p>Código Pix Válido até: 19/04/2023 22:34 (Horário de Brasília)</p>
+            <button class="btnFechar" onclick="fecharPix()">Fechar</button>
+        </dialog>
+
+        <dialog id="modal-cartao">
+            <div class="input-container">
+                <input type="text" id="Numero_Cartao" placeholder="Número do Cartão">
+                <input type="text" id="Validade" placeholder="Validade">
+                <input type="text" id="Cvv" placeholder="CVV">
+                <input type="text" id="Nome_Completo" placeholder="Nome Completo">
+                <input type="text" id="Cpf" placeholder="CPF">
+                <button id="Finalizar">FINALIZAR</button>
+            </div>
+            <img src="assets/images/cartao-carrinho.svg" alt="" class="imagem-cartao">
+            <button class="btnFechar" onclick="fecharCartao()">Fechar</button>
+        </dialog>
+
     </main>
     <footer>
         <p>&copySorvetes Flor d' Oeste 2023</p>

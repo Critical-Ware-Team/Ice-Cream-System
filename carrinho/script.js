@@ -67,3 +67,24 @@ window.onload = () => {
     }
     console.log(carrinho);
 }
+function exibirPix() {
+    let modalPix = document.getElementById("modal-pix");
+    modalPix.classList.add("flexer");
+    modalPix.showModal();
+  }
+  
+  function fecharPix() {
+    let modalPix = document.getElementById("modal-pix");
+    modalPix.classList.remove("flexer");
+    modalPix.close();
+  }
+  
+  function exibirCartao() {
+    let modalCartao = document.getElementById("modal-cartao");
+    modalCartao.showModal();
+  }
+  
+  function fecharCartao() {
+    let modalCartao = document.getElementById("modal-cartao");
+    modalCartao.close();
+  }
