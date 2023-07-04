@@ -3,7 +3,7 @@ window.onload = () => {
     document.getElementsByClassName("nav-btn")[0].addEventListener("click", () => {
         window.location.href = "../cardapio/";
     });
-    document.getElementsByClassName("nav-btn")[2].addEventListener("click", () => {
+    document.getElementsByClassName("nav-btn")[1].addEventListener("click", () => {
         window.location.href = "../carrinho/";
     });
     let carrinho = [];
@@ -94,4 +94,8 @@ function exibirCartao() {
 function fecharCartao() {
     let modalCartao = document.getElementById("modal-cartao");//pega modal
     modalCartao.close();//fecha modal
+}
+function concluirPedido (){
+    localStorage.removeItem("carrinho");//limpa carrinho do localStorage
+    window.location.href = "../confirmapedido";
 }
