@@ -1,21 +1,24 @@
 window.onload = () => {
+    //navegação entre páginas pelo header
     document.getElementsByClassName("nav-btn")[0].addEventListener("click", ()=>{
         window.location.href = "../cardapio/";
     });
     document.getElementsByClassName("nav-btn")[1].addEventListener("click", ()=>{
         window.location.href = "../carrinho/";
     });
-    const produtoSelecionado = localStorage.getItem("codigo-produto");
-    fetch("../assets/database/produtos.json")
-        .then((res) => res.json())
+    const produtoSelecionado = localStorage.getItem("codigo-produto");//lê o código salvo no localStorage
+    fetch("../assets/database/produtos.json")//solicita acesso ao json dos produtos
+        .then((res) => res.json())//traduz o resposta da solicitação para JS
         .then((jsonProdutos) => {
-            for (let i = 0; i < jsonProdutos.produtos.length; i++) {
+            for (let i = 0; i < jsonProdutos.produtos.length; i++) {//roda um laço até encontrar o produto selecionado
                 if (jsonProdutos.produtos[i].codigo == produtoSelecionado) {
-                    document.querySelector("head>title").innerHTML = `${jsonProdutos.produtos[i].nome}`;
+                    document.querySelector("head>title").innerHTML = `${jsonProdutos.produtos[i].nome}`;//muda o título da página para o nome do produto
+                    //seleciona os elementos via DOM
                     const descricao = document.getElementsByClassName("descricao")[0];
                     const ingredientes = document.getElementsByClassName("ingredientes")[0];
                     const nutricional = document.getElementsByClassName("nutricional")[0];
                     const similares = document.getElementsByClassName("simil-cards-row")[0];
+                    //renderiza a descrição do produto
                     descricao.innerHTML = `
                         <img src="${jsonProdutos.produtos[i].urlImg}" alt="${jsonProdutos.produtos[i].nome}">
                         <div class="texts">
@@ -23,14 +26,16 @@ window.onload = () => {
                             <p>${jsonProdutos.produtos[i].descricao}</p>
                             <p>R$ ${jsonProdutos.produtos[i].valor}</p>
                         </div>`;
+                    //rendeiza o cabeçalho dos ingredientes
                     ingredientes.innerHTML = `
                         <h2>Ingredientes</h2>
                         <p></p>`;
+                    //Renderiza os ingredientes
                     let ingredientesString = "";
-                    for(let j=0; j<jsonProdutos.produtos[i].ingredientes.length; j++){
-                        if(j==0){
-                            let ingrediente = jsonProdutos.produtos[i].ingredientes[j];
-                            let capitalized = ingrediente.charAt(0).toUpperCase() + ingrediente.slice(1);
+                    for(let j=0; j<jsonProdutos.produtos[i].ingredientes.length; j++){//a cada volta do laço, renderiza um ingrediente
+                        if(j==0){//Se estiver na primeira posição da string, Deixa a primeira letra em maiúscula
+                            let ingrediente = jsonProdutos.produtos[i].ingredientes[j];//pega a string do JSON
+                            let capitalized = ingrediente.charAt(0).toUpperCase() + ingrediente.slice(1);//Deixa a primeira letra em caixa alta e junta ela com o resto da string sem a primeira letra
                             ingredientesString += `${capitalized}, `;
                         }
                         else if(j==(jsonProdutos.produtos[i].ingredientes.length)-1){
